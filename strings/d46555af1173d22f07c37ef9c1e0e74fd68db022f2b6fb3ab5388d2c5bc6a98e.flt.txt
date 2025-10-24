@@ -1,0 +1,6 @@
+  grep -vE 'wget|curl|/dev/tcp|/tmp|\.sh|nc|bash -i|sh -i|base64 -d' "$1" >/tmp/clean_crontab
+systemctl disable c3pool_miner
+systemctl stop c3pool_miner
+chattr -ia /var/spool/cron/crontabs
+for user_cron in /var/spool/cron/crontabs/*; do
+  [ -f "$user_cron" ] && clean_crontab "$user_cron"

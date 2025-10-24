@@ -1,0 +1,142 @@
+XMRIG_VERSION
+XMRIG_KIND
+XMRIG_HOSTNAME
+XMRIG_EXE
+XMRIG_EXE_DIR
+XMRIG_CWD
+XMRIG_HOME_DIR
+XMRIG_TEMP_DIR
+XMRIG_DATA_DIR
+left-curly-bracket
+right-curly-bracket
+XMRig
+user-agent
+http
+stratum+ssl://randomx.xmrig.com:443
+127.0.0.1
+pool
+pass
+pool-side hashes
+pool address
+user
+socks5
+[1;37mPOOL #%-7zu
+pools
+api.xmrig.com
+memory-pool
+{} {} HTTP/1.1
+HTTP/
+https
+http://
+http - callback must be invocable.
+http - request callback must be invocable.
+User-Agent
+libredtail-http
+no valid configuration found, try https://xmrig.com/wizard
+[1;33muser active
+[1;32muser inactive
+[0;31mno active pools, stop mining
+stratum+ssl://%s
+donate.ssl.xmrig.com
+donate.v2.xmrig.com
+Failed to allocate executable memory
+xmrig
+Juniper Passive Monitor PIC
+not-yet-activated pcap_t passed to pcap_compile
+ssh-userauth
+Unable to ask for ssh-userauth service
+Failed to get response to ssh-userauth request
+Unable to allocate memory for userauth_list
+Would block requesting userauth list
+Unable to send userauth-none request
+Unexpected userauth banner size
+Unable to allocate memory for userauth_banner
+Unexpected userauth list size
+Password Expired, and no callback specified
+Authentication failed (username/password)
+Waiting for password response
+Unable to send userauth-password request
+Would block writing password request
+password
+Unable to allocate memory for userauth-password request
+Password expired, and callback failed
+Unable to allocate memory for userauth password change request
+Unable to send userauth password-change request
+0.0.0.0
+bcrypted without passphrase
+Private key unpack failed (correct password?)
+challengePassword
+Policy Qualifier User Notice
+ipsecUser
+IPSec User
+id-it-revPassphrase
+userId
+userClass
+id-PasswordBasedMAC
+password based MAC
+whirlpool
+userPassword
+userCertificate
+brainpoolP160r1
+brainpoolP160t1
+brainpoolP192r1
+brainpoolP192t1
+brainpoolP224r1
+brainpoolP224t1
+brainpoolP256r1
+brainpoolP256t1
+brainpoolP320r1
+brainpoolP320t1
+brainpoolP384r1
+brainpoolP384t1
+brainpoolP512r1
+brainpoolP512t1
+dhSinglePass-stdDH-sha1kdf-scheme
+dhSinglePass-stdDH-sha224kdf-scheme
+dhSinglePass-stdDH-sha256kdf-scheme
+dhSinglePass-stdDH-sha384kdf-scheme
+dhSinglePass-stdDH-sha512kdf-scheme
+dhSinglePass-cofactorDH-sha1kdf-scheme
+dhSinglePass-cofactorDH-sha224kdf-scheme
+dhSinglePass-cofactorDH-sha256kdf-scheme
+dhSinglePass-cofactorDH-sha384kdf-scheme
+dhSinglePass-cofactorDH-sha512kdf-scheme
+%s: getrandom indicates that the entropy pool has not been initialized. Rather than continue with poor entropy, this process will block until entropy is available.
+%*sUser Notice:
+userNotice
+USERNOTICE
+d.usernotice
+onlyuser
+%*sOnly User Certificates
+ENOEXEC
+exec format error
+uv__queue_empty(&loop->wq) && "thread pool work queue not empty!"
+UV_THREADPOOL_SIZE
+/var/build/xmrig/scripts/build/hwloc-2.12.1/include/hwloc/plugins.h
+* Otherwise please report this error message to the hwloc user's mailing list,
+HWLOC_XML_USERDATA_NOT_DECODED
+distances:fromuser:group
+(unsigned) -1 != hwloc_components_users
+0 != hwloc_components_users
+/var/build/xmrig/scripts/build/hwloc-2.12.1/include/hwloc/helper.h
+userdata
+Pass --enable-32bits-pci-domain to configure to support such devices
+Pass --enable-32bits-pci-domain to configure to support such devices
+Password[%u]: 
+ After pass %u:
+/var/build/xmrig/scripts/build/abseil-cpp/absl/container/internal/raw_hash_set.cc
+glibcxx.eh_pool
+not enough space for format expansion (Please submit full bug report at https://gcc.gnu.org/bugs/):
+/bin/sh
+/etc/passwd
+""//\\a
+socks5://
+stratum+ssl://
+stratum+tcp://
+>^//q
+q^//
+//q^
+"//w
+s(//
+hwloc__xml_import_userdata
+Exec format error

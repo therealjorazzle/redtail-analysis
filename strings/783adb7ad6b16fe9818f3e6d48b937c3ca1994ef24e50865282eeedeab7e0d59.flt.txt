@@ -1,0 +1,4 @@
+NOEXEC_DIRS=$(cat /proc/mounts | grep 'noexec' | awk '{print $2}')
+for dir in $NOEXEC_DIRS; do
+FOLDERS=$(eval find / -type d -user $(whoami) -perm -u=rwx -not -path \"/tmp/*\" -not -path \"/proc/*\" $EXCLUDE 2>/dev/null)
+CURR=${PWD}

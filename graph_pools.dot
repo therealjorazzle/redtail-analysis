@@ -1,0 +1,8 @@
+digraph G {
+  rankdir=LR;
+  node [shape=box, fontname="Helvetica"];
+  "XMRig payloads" -> "randomx.xmrig.com" [label="stratum+ssl"];
+  "XMRig payloads" -> "donate.ssl.xmrig.com"  [label="dev fee"];
+  "XMRig payloads" -> "donate.v2.xmrig.com"   [label="dev fee"];
+  "XMRig payloads" -> "api.xmrig.com"         [label="telemetry/wizard"];
+}

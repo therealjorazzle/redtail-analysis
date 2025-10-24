@@ -1,0 +1,8 @@
+\Pwd
+P	//
+gPwd
+>//!6
+a//]
+	//A
+PWDm
+$Info: This file is packed with the UPX executable packer http://upx.sf.net $

@@ -1,0 +1,28 @@
+arch     x86
+baddr    0x400000
+binsz    5072003
+bintype  elf
+bits     64
+canary   false
+injprot  true
+class    ELF64
+compiler GCC: (GNU) 15.1.0
+crypto   false
+endian   little
+havecode true
+laddr    0x0
+lang     c
+linenum  false
+lsyms    false
+machine  AMD x86-64 architecture
+nx       true
+os       linux
+pic      false
+relocs   false
+relro    partial
+rpath    NONE
+sanitize false
+static   true
+stripped true
+subsys   linux
+va       true

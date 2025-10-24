@@ -1,0 +1,9 @@
+                       Ultimate Packer for eXecutables
+                          Copyright (C) 1996 - 2024
+UPX 4.2.4       Markus Oberhumer, Laszlo Molnar & John Reiser    May 9th 2024
+
+        File size         Ratio      Format      Name
+   --------------------   ------   -----------   -----------
+   5074839 <-   1891876   37.28%   linux/amd64   d6e0_unpacked_work
+
+Unpacked 1 file.

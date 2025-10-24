@@ -1,0 +1,17 @@
+# keep raw malware off the repo
+samples/
+unpacked/
+redtail_samples.tar.gz
+*.tar.gz
+*.bin
+*.elf
+*.so
+*.exe
+
+# keep local tools and keys out
+id_*
+*.key
+*.pem
+.vscode/
+__pycache__/
+.env
