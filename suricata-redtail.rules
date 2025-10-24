@@ -1,4 +1,0 @@
-alert tls any any -> any any (msg:"Redtail/XMRig pool SNI randomx.xmrig.com"; tls.sni; content:"randomx.xmrig.com"; nocase; classtype:bad-unknown; sid:9001001; rev:1;)
-alert tls any any -> any any (msg:"Redtail/XMRig donate SNI donate.ssl.xmrig.com"; tls.sni; content:"donate.ssl.xmrig.com"; nocase; classtype:bad-unknown; sid:9001002; rev:1;)
-alert tls any any -> any any (msg:"Redtail/XMRig donate SNI donate.v2.xmrig.com"; tls.sni; content:"donate.v2.xmrig.com"; nocase; classtype:bad-unknown; sid:9001003; rev:1;)
-alert tls any any -> any any (msg:"Redtail/XMRig API SNI api.xmrig.com"; tls.sni; content:"api.xmrig.com"; nocase; classtype:bad-unknown; sid:9001004; rev:1;)

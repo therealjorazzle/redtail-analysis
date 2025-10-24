@@ -1,2 +1,0 @@
-randomx.xmrig.com
-stratum+ssl://

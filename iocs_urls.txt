@@ -1,5 +1,0 @@
-https://gcc.gnu.org/bugs/):
-https://H9
-https://xmrig.com/wizard
-stratum+ssl://
-stratum+ssl://randomx.xmrig.com:443

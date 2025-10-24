@@ -15,3 +15,12 @@ id_*
 .vscode/
 __pycache__/
 .env
+# keep malware out of the repo
+samples/
+unpacked/
+archives/
+*.tar.gz
+*.zip
+# local sandboxes
+duplicates/
+deleted_empty/
