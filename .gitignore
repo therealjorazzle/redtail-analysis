@@ -1,5 +1,4 @@
 # keep raw malware off the repo
-samples/
 unpacked/
 redtail_samples.tar.gz
 *.tar.gz
@@ -16,7 +15,6 @@ id_*
 __pycache__/
 .env
 # keep malware out of the repo
-samples/
 unpacked/
 archives/
 *.tar.gz
