@@ -1,0 +1,16 @@
+10:  [ -f "$user_cron" ] && clean_crontab "$user_cron"
+12:for system_cron in /etc/crontab /etc/crontabs; do
+13:  [ -f "$system_cron" ] && clean_crontab "$system_cron"
+15:for dir in /etc/cron.hourly /etc/cron.daily /etc/cron.weekly /etc/cron.monthly /etc/cron.d; do
+17:  for system_cron in "$dir"/*; do
+18:    [ -f "$system_cron" ] && clean_crontab "$system_cron"
+1:  grep -vE 'wget|curl|/dev/tcp|/tmp|\.sh|nc|bash -i|sh -i|base64 -d' "$1" >/tmp/clean_crontab
+21:clean_crontab /etc/anacrontab
+2:clean_crontab() {
+4:chattr -ia /var/spool/cron/crontabs
+4:  grep -vE 'wget|curl|/dev/tcp|/tmp|\.sh|nc|bash -i|sh -i|base64 -d' "$1" >/tmp/clean_crontab
+5:for user_cron in /var/spool/cron/crontabs/*; do
+5:  mv /tmp/clean_crontab "$1"
+6:  [ -f "$user_cron" ] && clean_crontab "$user_cron"
+8:chattr -ia /var/spool/cron/crontabs
+9:for user_cron in /var/spool/cron/crontabs/*; do

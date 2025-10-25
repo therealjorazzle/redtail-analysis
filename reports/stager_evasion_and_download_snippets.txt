@@ -1,0 +1,42 @@
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.flt.txt:1:NOEXEC_DIRS=$(cat /proc/mounts | grep 'noexec' | awk '{print $2}')
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.flt.txt:2:for dir in $NOEXEC_DIRS; do
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.flt.txt:3:FOLDERS=$(eval find / -type d -user $(whoami) -perm -u=rwx -not -path \"/tmp/*\" -not -path \"/proc/*\" $EXCLUDE 2>/dev/null)
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:37:NOEXEC_DIRS=$(cat /proc/mounts | grep 'noexec' | awk '{print $2}')
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:39:for dir in $NOEXEC_DIRS; do
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:42:FOLDERS=$(eval find / -type d -user $(whoami) -perm -u=rwx -not -path \"/tmp/*\" -not -path \"/proc/*\" $EXCLUDE 2>/dev/null)
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:45:for i in $FOLDERS /tmp /var/tmp /dev/shm; do
+strings/89782d8142297907c9962eebdae29c28df86805a99f38a683ab55c8fa1596dd8.full.txt:19304:/dev/shm
+strings/89782d8142297907c9962eebdae29c28df86805a99f38a683ab55c8fa1596dd8.unpx.flt.txt:10:left-curly-bracket
+strings/89782d8142297907c9962eebdae29c28df86805a99f38a683ab55c8fa1596dd8.unpx.flt.txt:11:right-curly-bracket
+strings/89782d8142297907c9962eebdae29c28df86805a99f38a683ab55c8fa1596dd8.unpx.flt.txt:111:ENOEXEC
+strings/229496b55d0668a40fe3d969ba4e942dc2c2fd7452b3d6f79c6beb0db631dc12.full.txt:16024:/dev/shm
+strings/229496b55d0668a40fe3d969ba4e942dc2c2fd7452b3d6f79c6beb0db631dc12.full.txt:16025:UPX-5.0 wants memfd_create(), or needs /dev/shm(,O_TMPFILE,)
+strings/229496b55d0668a40fe3d969ba4e942dc2c2fd7452b3d6f79c6beb0db631dc12.unpx.flt.txt:11:left-curly-bracket
+strings/229496b55d0668a40fe3d969ba4e942dc2c2fd7452b3d6f79c6beb0db631dc12.unpx.flt.txt:12:right-curly-bracket
+strings/229496b55d0668a40fe3d969ba4e942dc2c2fd7452b3d6f79c6beb0db631dc12.unpx.flt.txt:111:ENOEXEC
+strings/d6e0_strings_after_unupx.txt:8:left-curly-bracket
+strings/d6e0_strings_after_unupx.txt:9:right-curly-bracket
+strings/d6e0_strings_after_unupx.txt:45:ENOEXEC
+strings/d6e0_strings_full.txt:23359:/dev/shm
+strings/d6e0_unpacked_work.full.txt:47439:left-curly-bracket
+strings/d6e0_unpacked_work.full.txt:47441:right-curly-bracket
+strings/d6e0_unpacked_work.full.txt:50105:ENOEXEC
+strings/d6e0_unpacked_work.full.txt:50189:/tmp
+strings/d6e0_unpacked_work.full.txt:50692:%s/proc/mounts
+strings/d6e0_unpacked_work.unpx.flt.txt:18:left-curly-bracket
+strings/d6e0_unpacked_work.unpx.flt.txt:19:right-curly-bracket
+strings/d6e0_unpacked_work.unpx.flt.txt:80:ENOEXEC
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.flt.txt:1:  grep -vE 'wget|curl|/dev/tcp|/tmp|\.sh|nc|bash -i|sh -i|base64 -d' "$1" >/tmp/clean_crontab
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.flt.txt:4:chattr -ia /var/spool/cron/crontabs
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:3:  chattr -ia "$1"
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:4:  grep -vE 'wget|curl|/dev/tcp|/tmp|\.sh|nc|bash -i|sh -i|base64 -d' "$1" >/tmp/clean_crontab
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:5:  mv /tmp/clean_crontab "$1"
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:8:chattr -ia /var/spool/cron/crontabs
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:16:  chattr -ia "$dir"
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:22:for i in /tmp /var/tmp /dev/shm; do
+strings/ee7a31fb0d3c29ca435f08fd147a434c6db921b69d32c8894539a8199b0b15c0.full.txt:21406:/dev/shm
+strings/ee7a31fb0d3c29ca435f08fd147a434c6db921b69d32c8894539a8199b0b15c0.full.txt:21407:UPX-5.0 wants memfd_create(), or needs /dev/shm(,O_TMPFILE,)
+strings/ee7a31fb0d3c29ca435f08fd147a434c6db921b69d32c8894539a8199b0b15c0.full.txt:21443:/dev/shm
+strings/ee7a31fb0d3c29ca435f08fd147a434c6db921b69d32c8894539a8199b0b15c0.unpx.flt.txt:22:left-curly-bracket
+strings/ee7a31fb0d3c29ca435f08fd147a434c6db921b69d32c8894539a8199b0b15c0.unpx.flt.txt:23:right-curly-bracket
+strings/ee7a31fb0d3c29ca435f08fd147a434c6db921b69d32c8894539a8199b0b15c0.unpx.flt.txt:84:ENOEXEC

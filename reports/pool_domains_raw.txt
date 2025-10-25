@@ -1,0 +1,28 @@
+=== 89782d8142297907c9962eebdae29c28df86805a99f38a683ab55c8fa1596dd8.unpx.flt.txt ===
+api.xmrig.com
+donate.ssl.xmrig.com
+donate.v2.xmrig.com
+gcc.gnu.org
+randomx.xmrig.com
+xmrig.com
+=== 229496b55d0668a40fe3d969ba4e942dc2c2fd7452b3d6f79c6beb0db631dc12.unpx.flt.txt ===
+api.xmrig.com
+donate.ssl.xmrig.com
+donate.v2.xmrig.com
+gcc.gnu.org
+randomx.xmrig.com
+xmrig.com
+=== d6e0_unpacked_work.unpx.flt.txt ===
+api.xmrig.com
+donate.ssl.xmrig.com
+donate.v2.xmrig.com
+gcc.gnu.org
+randomx.xmrig.com
+xmrig.com
+=== ee7a31fb0d3c29ca435f08fd147a434c6db921b69d32c8894539a8199b0b15c0.unpx.flt.txt ===
+api.xmrig.com
+donate.ssl.xmrig.com
+donate.v2.xmrig.com
+gcc.gnu.org
+randomx.xmrig.com
+xmrig.com

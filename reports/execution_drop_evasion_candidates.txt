@@ -1,0 +1,51 @@
+10:left-curly-bracket
+111:ENOEXEC
+11:left-curly-bracket
+11:right-curly-bracket
+12:right-curly-bracket
+14186:SCp`Cir
+16024:/dev/shm
+16025:UPX-5.0 wants memfd_create(), or needs /dev/shm(,O_TMPFILE,)
+16:  chattr -ia "$dir"
+18:left-curly-bracket
+19304:/dev/shm
+19:right-curly-bracket
+1:  grep -vE 'wget|curl|/dev/tcp|/tmp|\.sh|nc|bash -i|sh -i|base64 -d' "$1" >/tmp/clean_crontab
+1:NOEXEC_DIRS=$(cat /proc/mounts | grep 'noexec' | awk '{print $2}')
+21406:/dev/shm
+21407:UPX-5.0 wants memfd_create(), or needs /dev/shm(,O_TMPFILE,)
+21443:/dev/shm
+22:for i in /tmp /var/tmp /dev/shm; do
+22:left-curly-bracket
+23359:/dev/shm
+23:right-curly-bracket
+2:for dir in $NOEXEC_DIRS; do
+37:NOEXEC_DIRS=$(cat /proc/mounts | grep 'noexec' | awk '{print $2}')
+39:for dir in $NOEXEC_DIRS; do
+3:  chattr -ia "$1"
+3:FOLDERS=$(eval find / -type d -user $(whoami) -perm -u=rwx -not -path \"/tmp/*\" -not -path \"/proc/*\" $EXCLUDE 2>/dev/null)
+42:FOLDERS=$(eval find / -type d -user $(whoami) -perm -u=rwx -not -path \"/tmp/*\" -not -path \"/proc/*\" $EXCLUDE 2>/dev/null)
+45:ENOEXEC
+45:for i in $FOLDERS /tmp /var/tmp /dev/shm; do
+47439:left-curly-bracket
+47441:right-curly-bracket
+49820:%*sCPS: %.*s
+4:chattr -ia /var/spool/cron/crontabs
+4:  grep -vE 'wget|curl|/dev/tcp|/tmp|\.sh|nc|bash -i|sh -i|base64 -d' "$1" >/tmp/clean_crontab
+50105:ENOEXEC
+50189:/tmp
+50270:%s (%s%s%s%s%scpuset %s%s%s)
+51788:Unable to open OpenSSH RSA private key file
+51793:Unable to open OpenSSH ECDSA private key file
+51870:-----BEGIN OPENSSH PRIVATE KEY-----
+51871:-----END OPENSSH PRIVATE KEY-----
+51873:Error parsing PEM: OpenSSH header not found
+55445:look_sysfscpukinds
+55447:look_sysfscpu
+5:  mv /tmp/clean_crontab "$1"
+7385:scpA]y
+80:ENOEXEC
+84:ENOEXEC
+8:chattr -ia /var/spool/cron/crontabs
+8:left-curly-bracket
+9:right-curly-bracket

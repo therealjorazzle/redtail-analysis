@@ -1,0 +1,17 @@
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.flt.txt:1:  grep -vE 'wget|curl|/dev/tcp|/tmp|\.sh|nc|bash -i|sh -i|base64 -d' "$1" >/tmp/clean_crontab
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.flt.txt:4:chattr -ia /var/spool/cron/crontabs
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.flt.txt:5:for user_cron in /var/spool/cron/crontabs/*; do
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.flt.txt:6:  [ -f "$user_cron" ] && clean_crontab "$user_cron"
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:2:clean_crontab() {
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:4:  grep -vE 'wget|curl|/dev/tcp|/tmp|\.sh|nc|bash -i|sh -i|base64 -d' "$1" >/tmp/clean_crontab
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:5:  mv /tmp/clean_crontab "$1"
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:8:chattr -ia /var/spool/cron/crontabs
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:9:for user_cron in /var/spool/cron/crontabs/*; do
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:10:  [ -f "$user_cron" ] && clean_crontab "$user_cron"
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:12:for system_cron in /etc/crontab /etc/crontabs; do
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:13:  [ -f "$system_cron" ] && clean_crontab "$system_cron"
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:15:for dir in /etc/cron.hourly /etc/cron.daily /etc/cron.weekly /etc/cron.monthly /etc/cron.d; do
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:17:  for system_cron in "$dir"/*; do
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:18:    [ -f "$system_cron" ] && clean_crontab "$system_cron"
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:21:clean_crontab /etc/anacrontab
+strings/d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e.full.txt:23:  rm -rf $i/*

@@ -1,143 +1,47 @@
-# Network IoCs (miners)
-stratum+ssl://randomx.xmrig.com:443
+# Redtail / XMRig derived IOCs
+# Generated: 2025-10-24T20:43:59-04:00
+
+api.xmrig.com
 donate.ssl.xmrig.com
 donate.v2.xmrig.com
-api.xmrig.com
-socks5:// (proxy usage by miner tooling)
-
-# Behavioral / Host IoCs
-- UPX-packed static ELFs (x86_64, i386, ARM, aarch64) that unpack to XMRIG markers (XMRIG_VERSION, pools)
-- Scripts that:
-  * select arch and drop a temp executable named like ".<random>" then run with "ssh" arg
-  * clean user/system crons, disable competing miner service (c3pool_miner)
-  * wipe /tmp, /var/tmp, /dev/shm contents
-
-# Filenames (as captured by honeypot)
-samples: d6e0..., ee7a31..., 229496..., 89782..., plus scripts 783a..., d465...
-# Extracted pool hosts
 randomx.xmrig.com
-stratum+ssl://
-
-# Extracted URLs
-https://gcc.gnu.org/bugs/):
-https://H9
-https://xmrig.com/wizard
-stratum+ssl://
-stratum+ssl://randomx.xmrig.com:443
-# Pools
-randomx.xmrig.com
-stratum+ssl://
-
-# URLs
-https://gcc.gnu.org/bugs/):
-https://H9
-https://xmrig.com/wizard
-stratum+ssl://
-stratum+ssl://randomx.xmrig.com:443
-
-# Domains
-2.for
-33mclient.reconnect
-5.yH
-6.Bl
-6.vk
-6.Vk
-7.Vk
-81.tG
-8.uP
-9.tT
-api.xmrig.com
-ARM.attributes
-ARM.exidx
-ARM.extab
-attr.type
-bridge.downstream
-cache.depth
-cache.type
-cert_key.pem
-cert.pem
-cgroup.controllers
-client.reconnect
-cpubind.get
-cpubind.set
-cpuset.cpus
-cpuset.cpus.effective
-custom.exported
-C.UT
-C.UTF
-data.rel.ro
-d.cpsuri
-d.directoryName
-d.dNSName
-d.ediPartyName
-D.Hog
-d.iPAddress
-discovery.cpukind
-discovery.disallowed
-discovery.numa
-discovery.pu
-donate.ssl.xmrig.com
-donate.v2.xmrig.com
-d.other
-d.otherName
-d.registeredID
-d.rfc
-d.uniformResourceIdentifier
-d.usernotice
-glibcxx.eh
-got.plt
-group.depth
-gXC.nT
-H.aR
-Hc.Hcy
-hwloc2-diff.dtd
-hwloc2.dtd
-hwloc.dtd
-io_watcher.fd
-J.xc
-J.xg
-J.xj
-J.xn
-J.yn
-l1.zd
-LG.HK
-libssh2.orgW
-libssh.org
-lysator.liu.se
-membind.alloc
-membind.bind
-membind.firsttouch
-membind.get
-membind.interleave
-membind.migrate
-membind.nexttouch
-membind.set
-membind.weighted
-name.fullname
-name.relativename
-net.core.optmem
-nicehash.com
-note.gnu.property
-o.fE
-o.fH
-_.oG
-o.hs
-openssh.cecdsa
-openssh.com
-openssh.comsk
-openssl.org
-P.uEH
-Q.Ol
-randomx.xmrig.com
-raw_hash_set.cc
-resolv.conf
-s.effective
-sh.cf
-t.ff
-t.Hc
-topology.xml
-tX4Fr.rh
-u.ff
-v.dH
-x.Hc
 xmrig.com
+
+# Raw domains (other matches)
+
+api.xmrig.com
+donate.ssl.xmrig.com
+donate.v2.xmrig.com
+gcc.gnu.org
+randomx.xmrig.com
+xmrig.com
+
+# Stratum / miner URIs
+
+stratum+ssl://randomx.xmrig.com:443
+stratum+ssl://%s
+
+# BTC-like addresses (candidates)
+
+122X25519Kyber768KeyShareE
+122X25519MLKEM768KeyShareE
+1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P
+1P1P1P1P1P1P1P1P1PN1P1PN1P1P1P1P1P1
+
+# XMR/Long base58-like candidates (verify manually)
+
+405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859
+
+# Miner-config tokens
+
+api.xmrig.com
+donate.ssl.xmrig.com
+donate.v2.xmrig.com
+randomx
+RandomX
+stratum+ssl
+stratum+tcp
+UV_THREADPOOL_SIZE
+xmrig
+XMRig
+XMRIG

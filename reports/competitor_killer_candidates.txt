@@ -1,0 +1,28 @@
+19310:=/proc/self/exe
+1:NOEXEC_DIRS=$(cat /proc/mounts | grep 'noexec' | awk '{print $2}')
+21408:wn/proc/self/exe
+23400:/proc/self/ex
+37:NOEXEC_DIRS=$(cat /proc/mounts | grep 'noexec' | awk '{print $2}')
+3:FOLDERS=$(eval find / -type d -user $(whoami) -perm -u=rwx -not -path \"/tmp/*\" -not -path \"/proc/*\" $EXCLUDE 2>/dev/null)
+42:FOLDERS=$(eval find / -type d -user $(whoami) -perm -u=rwx -not -path \"/tmp/*\" -not -path \"/proc/*\" $EXCLUDE 2>/dev/null)
+47642:/proc/self/exe
+47720:/proc/efi/systab
+47727:/proc/sys/vm/nr_hugepages
+50228:/proc/meminfo
+50230:/proc/version_signature
+50662:/proc/cmdline
+50671:/proc/self/cgroup
+50672:/proc/self/cpuset
+50673:/proc/%d/cpuset
+50674:/proc/%d/cgroup
+50692:%s/proc/mounts
+50715:/proc/driver/nvidia/gpus
+50765:/proc/hwloc-nofile-info
+50766:/proc/cpuinfo
+50829:/proc/%u/task
+50831:/proc/%lu/stat
+51063:/proc/self/task/%d/comm
+52390:/proc/driver/nvidia/gpus/%s/numa_status
+52546:L=/proc/XXXXXXXXXXXXXXXXXX/cpuset
+52549:/sys/class/dmi/i/proc/self/task
+52610:?/proc/se

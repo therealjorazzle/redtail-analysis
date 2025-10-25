@@ -1,0 +1,13 @@
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:25:NOARCH=false
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:26:ARCH=$(uname -mp)
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:27:if echo "$ARCH" | grep -q "x86_64" || echo "$ARCH" | grep -q "amd64"; then
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:28:  ARCH="x86_64"
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:29:elif echo "$ARCH" | grep -q "i[3456]86"; then
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:30:  ARCH="i686"
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:31:elif echo "$ARCH" | grep -q "armv8" || echo "$ARCH" | grep -q "aarch64"; then
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:32:  ARCH="arm8"
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:33:elif echo "$ARCH" | grep -q "armv7"; then
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:34:  ARCH="arm7"
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:36:  NOARCH=true
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:56:if [ $NOARCH = true ]; then
+strings/783adb7ad6b16fe9818f3e6d48b937c3ca1994ef24e50865282eeedeab7e0d59.full.txt:63:  cat redtail.$ARCH >$FILENAME

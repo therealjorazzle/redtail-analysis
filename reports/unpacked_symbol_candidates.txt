@@ -1,0 +1,1809 @@
+=== Unpacked files ===
+total 18M
+-rw------- 1 kali kali 3.7M Oct 24 08:41 229496b55d0668a40fe3d969ba4e942dc2c2fd7452b3d6f79c6beb0db631dc12
+-rw------- 1 kali kali 4.1M Oct 24 08:41 89782d8142297907c9962eebdae29c28df86805a99f38a683ab55c8fa1596dd8
+-rw------- 1 kali kali 4.9M Oct 24 08:41 d6e0eb28cfe1b224f061eff0581091dac985516c78d222f4921587d2ec612010
+-rw------- 1 kali kali 5.1M Oct 24 08:41 ee7a31fb0d3c29ca435f08fd147a434c6db921b69d32c8894539a8199b0b15c0
+
+=== 89782d8142297907c9962eebdae29c28df86805a99f38a683ab55c8fa1596dd8 ===
+unpacked/89782d8142297907c9962eebdae29c28df86805a99f38a683ab55c8fa1596dd8: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+--- DYNAMIC LIBS (readelf -d | grep NEEDED) ---
+(no dynamic info or readelf failed)
+--- SYMBOLS (readelf -s | head) ---
+--- STRINGS (network/crypto/miner heuristics) ---
+[0;31mconnect error: 
+[0;31mdetected, reconnect
+[0;31minvalid client.reconnect notification: host is not a string
+[0;31minvalid client.reconnect notification: params array has wrong size
+[0;31minvalid client.reconnect notification: params array is empty
+[0;31minvalid client.reconnect notification: params is not an array
+[0;31minvalid client.reconnect notification: port is not a string
+[0;31mno active pools, stop mining
+[0;31mthread 
+[0;33mclient.reconnect to %s
+[0;33mduplicate job received, reconnect
+[0;33m (failed to start threads)
+0 == (events & ~(POLLIN | POLLOUT | UV__POLLRDHUP | UV__POLLPRI))
+[0m threads %s%zu/%zu (%zu)
+[1;31mfailed to allocate RandomX dataset using 1GB pages
+[1;31mfailed to allocate RandomX memory
+[1;31mfast RandomX mode disabled by config
+[1;31mnot enough memory for RandomX dataset
+[1;32maccepted
+[1;33mfailed to allocate RandomX datasets, switching to slow mode
+[1;33mfailed to allocate RandomX dataset, switching to slow mode
+[1;33mno active connection
+[1;35m - CONNECTION
+[1;37mdev donate finished
+[1;37mdev donate started
+[1;37mPOOL #%-7zu
+[1;37m randomx 
+[1;37m thread%s)
+[1;37m threads)
+accept
+Accept
+Acceptable OCSP Responses
+acceptableResponses
+accepted
+Adapter, not synced with system time
+aes-128-cbc-hmac-sha1
+AES-128-CBC-HMAC-SHA1
+aes128-gcm@openssh.com
+AES128-GCM-SHA256
+aes-192-cbc-hmac-sha1
+AES-192-CBC-HMAC-SHA1
+aes-256-cbc-hmac-sha1
+AES-256-CBC-HMAC-SHA1
+aes256-gcm@openssh.com
+allocate a channel for new connection
+api.xmrig.com
+arptype %d not supported by libpcap - falling back to cooked socket
+Attempt to create packet socket failed - CAP_NET_RAW may be required
+auth-agent@openssh.com
+backend->is_thissystem == 0
+bad address in system call argument
+Bad socket provided
+-----BEGIN OPENSSH PRIVATE KEY-----
+brainpoolP160r1
+brainpoolP160t1
+brainpoolP192r1
+brainpoolP192t1
+brainpoolP224r1
+brainpoolP224t1
+brainpoolP256r1
+brainpoolP256t1
+brainpoolP320r1
+brainpoolP320t1
+brainpoolP384r1
+brainpoolP384t1
+brainpoolP512r1
+brainpoolP512t1
+CAN-bus with SocketCAN headers
+Cannot send after socket shutdown
+CAN_SOCKETCAN
+can't activate %s on packet socket
+can't bind memory
+Can't create raw socket
+can't create rx ring on packet socket
+Can't create socket to get ethtool information for %s
+can't get %s header len on packet socket
+Can't listen on group index
+can't mmap rx ring
+Can't open netlink socket
+can't poll on packet socket
+cf-ack-poll
+cf-poll
+ChaCha20 for ARMv8, CRYPTOGAMS by <appro@openssl.org>
+chacha20-poly1305@openssh.com
+client.reconnect
+ * COMMANDS     'h' hashrate, 'p' pause, 'r' resume, 's' results, 'c' connection
+connect
+connection
+Connection
+Connection aborted
+connection already in progress
+connection refused
+Connection refused
+Connection reset by network
+connection reset by peer
+Connection reset by peer
+connection time
+connection timed out
+'connectmsg' supported only on raw ATM
+CPU #%02ld warning: "can't bind memory"
+cpubind.get_proc_cpubind
+cpubind.get_proc_last_cpu_location
+cpubind.get_thisproc_cpubind
+cpubind.get_thisproc_last_cpu_location
+cpubind.get_thisthread_cpubind
+cpubind.get_thisthread_last_cpu_location
+cpubind.get_thread_cpubind
+cpubind.set_proc_cpubind
+cpubind.set_thisproc_cpubind
+cpubind.set_thisthread_cpubind
+cpubind.set_thread_cpubind
+ctx->parent_handle->poll_ctx == ctx
+curve25519-sha256
+curve25519-sha256@libssh.org
+daemon-poll-interval
+data-cf-ack-poll
+data-cf-poll
+dhSinglePass-cofactorDH-sha1kdf-scheme
+dhSinglePass-cofactorDH-sha256kdf-scheme
+dhSinglePass-stdDH-sha1kdf-scheme
+dhSinglePass-stdDH-sha256kdf-scheme
+diffie-hellman-group14-sha1
+diffie-hellman-group14-sha256
+diffie-hellman-group1-sha1
+diffie-hellman-group-exchange-sha1
+diffie-hellman-group-exchange-sha256
+<!DOCTYPE topologydiff SYSTEM "hwloc2-diff.dtd">
+<!DOCTYPE topology SYSTEM "%s">
+DONATE
+donate-level
+donate-over-proxy
+donate.ssl.xmrig.com
+donate.v2.xmrig.com
+DSA-SHA1
+DSA-SHA1-old
+dsaWithSHA1
+dsaWithSHA1-old
+dsa_with_SHA256
+ECDHE-ECDSA-AES128-GCM-SHA256
+ECDHE-RSA-AES128-GCM-SHA256
+ECDHE-RSA-AES128-SHA256
+ecdsa-sha2-nistp256-cert-v01@openssh.com
+ecdsa-sha2-nistp384-cert-v01@openssh.com
+ecdsa-sha2-nistp521-cert-v01@openssh.com
+ecdsa-with-SHA1
+ecdsa-with-SHA256
+ech accept confirmation
+ECP_NISTZ256 for ARMv8, CRYPTOGAMS by <appro@openssl.org>
+-----END OPENSSH PRIVATE KEY-----
+Error condition on packet socket
+Error condition on packet socket: Reported error was 0
+Error parsing PEM: OpenSSH header not found
+Error waiting on socket
+Failed changing socket's blocking state to non-blocking
+Failed to get response to ssh-userauth request
+failed to get statistics from socket
+filesystem error: 
+getaddrinfo("%s") fails with error: %d
+getaddrinfo("%s" fails with system error: %d
+getrandom
+GHASH for ARMv8, CRYPTOGAMS by <appro@openssl.org>
+GHASH for ARMv8, derived from ARMv4 version by <appro@openssl.org>
+glibcxx.eh_pool
+Hangup on packet socket
+hmac-sha1
+HMAC-SHA1
+hmac-sha1-96
+hmac-sha1-etm@openssh.com
+hmac-sha2-256-etm@openssh.com
+hmac-sha2-512-etm@openssh.com
+hmacWithSHA1
+hmacWithSHA256
+Host, high precision, not synced with system time
+hrr ech accept confirmation
+hwloc_backends_is_thissystem
+hwloc_linux_get_thread_cpubind
+hwloc/linux: node P#%u cpuset intersects with previous nodes, forcing its acceptance
+hwloc_linux_set_thread_cpubind
+hwloc_linux_set_tid_cpubind
+[hwloc/membind] MPOL_PREFERRED_MANY not supported by the kernel.
+HWLOC_THISSYSTEM
+HWLOC_THISSYSTEM_ALLOWED_RESOURCES
+id-alg-dh-sig-hmac-sha1
+id-cmc-confirmCertAcceptance
+IEC 62106 Radio Data System groups
+If *all* given nodes must be used, use strict binding or the interleave policy.
+interrupted system call
+Interrupted system call
+Invalid DH-SHA1 g
+Invalid DH-SHA1 p
+Invalid DH-SHA256 g
+Invalid DH-SHA256 p
+Invalid polling request on packet socket
+ipsecEndSystem
+IPSec End System
+keepalive@libssh2.orgW
+Kernel doesn't support memory-mapped capture; a 2.6.27 or later 2.x kernel is required, with CONFIG_PACKET_MMAP specified for 2.x kernels
+kex-strict-c-v00@openssh.com
+kex-strict-s-v00@openssh.com
+left-curly-bracket
+_libssh2_channel_free
+_libssh2_cipher_crypt
+_libssh2_store_str
+_libssh2_transport_read
+libuv-worker
+max-threads-hint
+md5-sha1
+MD5-SHA1
+membind.alloc_membind
+membind.bind_membind
+membind.firsttouch_membind
+membind.get_area_membind
+membind.get_area_memlocation
+membind.get_proc_membind
+membind.get_thisproc_membind
+membind.get_thisthread_membind
+membind.interleave_membind
+membind.migrate_membind
+membind.nexttouch_membind
+membind.set_area_membind
+membind.set_proc_membind
+membind.set_thisproc_membind
+membind.set_thisthread_membind
+membind.weighted_interleave_membind
+memory-pool
+'metaconnect' supported only on raw ATM
+Microsoft Encrypted File System
+Montgomery Multiplication for ARMv8, CRYPTOGAMS by <appro@openssl.org>
+*N12_GLOBAL__N_121system_error_categoryE
+NFQNL_CFG_CMD_PF_BIND
+NFQNL_CFG_CMD_PF_UNBIND
+NFULNL_CFG_CMD_PF_BIND
+NFULNL_CFG_CMD_PF_UNBIND
+Not a socket
+no valid configuration found, try https://xmrig.com/wizard
+NSt10filesystem7__cxx1116filesystem_errorE
+openssh-key-v1
+OpenSSL 1.1.1 (compatible; BoringSSL)
+openssl.c
+OpenSSL/%.*s 
+op == EPOLL_CTL_ADD
+operation not supported on socket
+PBE-SHA1-2DES
+PBE-SHA1-3DES
+PBE-SHA1-DES
+PBE-SHA1-RC2-128
+PBE-SHA1-RC2-40
+PBE-SHA1-RC2-64
+PBE-SHA1-RC4-128
+PBE-SHA1-RC4-40
+pbeWithSHA1And128BitRC2-CBC
+pbeWithSHA1And128BitRC4
+pbeWithSHA1And2-KeyTripleDES-CBC
+pbeWithSHA1And3-KeyTripleDES-CBC
+pbeWithSHA1And40BitRC2-CBC
+pbeWithSHA1And40BitRC4
+pbeWithSHA1AndDES-CBC
+pbeWithSHA1AndRC2-CBC
+(pevents & ~(UV_READABLE | UV_WRITABLE | UV_DISCONNECT | UV_PRIORITIZED)) == 0
+PF_PACKET sockets not supported - is this WSL1?
+pool
+pool address
+pools
+pool-side hashes
+protocol wrong type for socket
+Protocol wrong type for socket
+ps-poll
+qos-cf-ack-poll
+qos-cf-poll
+qos-data-cf-ack-poll
+qos-data-cf-poll
+randomx
+RandomX
+randomx/0
+randomx/arq
+randomx/graft
+RandomX-Graft
+randomx/sfx
+randomx/test
+randomx/wow
+randomx/yada
+RandomXYadaCoin
+read-only file system
+Read-only file system
+res binder
+right-curly-bracket
+RSA-SHA1
+RSA-SHA1-2
+rsa-sha2-256-cert-v01@openssh.com
+rsa-sha2-512-cert-v01@openssh.com
+RSA-SHA256
+service not available for socket type
+%s: getrandom indicates that the entropy pool has not been initialized. Rather than continue with poor entropy, this process will block until entropy is available.
+sha1
+SHA1 block transform for ARMv8, CRYPTOGAMS by <appro@openssl.org>
+sha1WithRSA
+sha1WithRSAEncryption
+sha256
+SHA256 block transform for ARMv8, CRYPTOGAMS by <appro@openssl.org>
+sha256WithRSAEncryption
+SHA512 block transform for ARMv8, CRYPTOGAMS by <appro@openssl.org>
+sk-ecdsa-sha2-nistp256@openssh.com
+sk-ssh-ed25519@openssh.com
+%s: obsolete System object only allowed at root
+Socket
+socket disconnect
+socket for SIOCETHTOOL(ETHTOOL_GET_TS_INFO)
+socket is already connected
+Socket is connected
+socket is not connected
+Socket not connected
+socket operation on non-socket
+socket type not supported
+Socket type not supported
+software caused connection abort
+src/fs-poll.c
+src/unix/poll.c
+SSH-
+SSH-2.0-libssh2_1.11.1
+ssh-connection
+ssh-ecdsa
+ssh-ed25519
+ssh-ed25519-cert-v01@openssh.com
+ssh-rsa
+ssh-rsa-cert-v01@openssh.com
+ssh-userauth
+St12system_error
+St23_Sp_counted_ptr_inplaceINSt10filesystem7__cxx1116filesystem_error5_ImplESaIS3_ELN9__gnu_cxx12_Lock_policyE2EE
+St23_Sp_counted_ptr_inplaceINSt10filesystem7__cxx114_DirESaIS2_ELN9__gnu_cxx12_Lock_policyE2EE
+stratum+ssl://
+stratum+ssl://randomx.xmrig.com:443
+stratum+ssl://%s
+stratum+tcp://
+/sys/devices/system/cpu
+/sys/devices/system/cpu/cpu0/topology/core_cpus
+/sys/devices/system/cpu/cpu0/topology/core_siblings
+/sys/devices/system/cpu/cpu0/topology/package_cpus
+/sys/devices/system/cpu/cpu0/topology/thread_siblings
+/sys/devices/system/cpu/cpu%d/acpi_cppc/nominal_freq
+/sys/devices/system/cpu/cpu%d/cache/index%d/coherency_line_size
+/sys/devices/system/cpu/cpu%d/cache/index%d/id
+/sys/devices/system/cpu/cpu%d/cache/index%d/level
+/sys/devices/system/cpu/cpu%d/cache/index%d/number_of_sets
+/sys/devices/system/cpu/cpu%d/cache/index%d/physical_line_partition
+/sys/devices/system/cpu/cpu%d/cache/index%d/shared_cpu_map
+/sys/devices/system/cpu/cpu%d/cache/index%d/size
+/sys/devices/system/cpu/cpu%d/cache/index%d/type
+/sys/devices/system/cpu/cpu%d/cpu_capacity
+/sys/devices/system/cpu/cpu%d/cpufreq/base_frequency
+/sys/devices/system/cpu/cpu%d/cpufreq/cpuinfo_max_freq
+/sys/devices/system/cpu/cpu%d/topology/book_id
+/sys/devices/system/cpu/cpu%d/topology/book_siblings
+/sys/devices/system/cpu/cpu%d/topology/cluster_cpus
+/sys/devices/system/cpu/cpu%d/topology/cluster_id
+/sys/devices/system/cpu/cpu%d/topology/core_cpus
+/sys/devices/system/cpu/cpu%d/topology/core_id
+/sys/devices/system/cpu/cpu%d/topology/core_siblings
+/sys/devices/system/cpu/cpu%d/topology/die_cpus
+/sys/devices/system/cpu/cpu%d/topology/die_id
+/sys/devices/system/cpu/cpu%d/topology/drawer_id
+/sys/devices/system/cpu/cpu%d/topology/drawer_siblings
+/sys/devices/system/cpu/cpu%d/topology/package_cpus
+/sys/devices/system/cpu/cpu%d/topology/physical_package_id
+/sys/devices/system/cpu/cpu%d/topology/thread_siblings
+/sys/devices/system/cpu/cpu%lu/online
+/sys/devices/system/cpu/cpu%lu/topology
+/sys/devices/system/cpu/cpu%u/topology/core_cpus
+/sys/devices/system/cpu/cpu%u/topology/core_id
+/sys/devices/system/cpu/cpu%u/topology/core_siblings
+/sys/devices/system/cpu/cpu%u/topology/package_cpus
+/sys/devices/system/cpu/cpu%u/topology/thread_siblings
+/sys/devices/system/cpu/online
+/sys/devices/system/cpu/possible
+/sys/devices/system/node
+/sys/devices/system/node/node0/hugepages/hugepages-2048kB/nr_hugepages
+/sys/devices/system/node/node%d/hugepages
+/sys/devices/system/node/node%d/meminfo
+/sys/devices/system/node/node{}/hugepages/hugepages-{}kB/{}_hugepages
+/sys/devices/system/node/node%u/access0/initiators
+/sys/devices/system/node/node%u/access1/initiators
+/sys/devices/system/node/node%u/cpumap
+/sys/devices/system/node/node%u/distance
+/sys/devices/system/node/node%u/memory_side_cache
+/sys/devices/system/node/node%u/memory_side_cache/index%u/indexing
+/sys/devices/system/node/node%u/memory_side_cache/index%u/line_size
+/sys/devices/system/node/node%u/memory_side_cache/index%u/size
+/sys/devices/system/node/online
+/sys/devices/system/node/possible
+system
+SystemVersionRegister
+threads
+Timed out waiting on socket
+Timeout waiting for GEX_GROUP reply SHA256
+TLS_AES_128_GCM_SHA256
+TLS_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_RSA_WITH_AES_128_GCM_SHA256
+/tmp
+Too many open files in system
+Unable to allocate a channel for new connection
+Unable to allocate memory for listener queue
+Unable to ask for ssh-userauth service
+Unable to complete request for forward-listen
+Unable to open OpenSSH ECDSA private key file
+Unable to open OpenSSH RSA private key file
+Unable to send global-request packet for forward listen request
+Unable to send Group Exchange Request SHA256
+Unexpected key length DH-SHA1
+Unexpected key length DH-SHA256
+Unexpected value DH-SHA1 g
+Unexpected value DH-SHA1 p
+Unexpected value DH-SHA256 g
+Unexpected value DH-SHA256 p
+Unknown system error
+Unknown system error %d
+USB_LINUX_MMAPPED
+uv__epoll_ctl_flush
+uv__epoll_ctl_prep
+uv_fs_poll_stop
+!uv__io_active(&handle->io_watcher, POLLIN | POLLOUT)
+!uv__io_active(&stream->io_watcher, POLLIN | POLLOUT)
+uv__io_poll
+uv__poll_io_uring
+uv_poll_start
+uv__queue_empty(&loop->wq) && "thread pool work queue not empty!"
+uv__stream_connect
+uv__tcp_connect
+UV_THREADPOOL_SIZE
+/var/build/xmrig/scripts/build/abseil-cpp/absl/container/internal/raw_hash_set.cc
+/var/build/xmrig/scripts/build/hwloc-2.12.1/include/hwloc/helper.h
+/var/build/xmrig/scripts/build/hwloc-2.12.1/include/hwloc/plugins.h
+/var/run/nscd/socket
+*   What should I do when hwloc reports "operating system" warnings?
+whirlpool
+WirelessHART
+worker-id
+Would block sending global-request packet for forward listen request
+xmrig
+XMRig
+XMRIG_CWD
+XMRIG_DATA_DIR
+XMRIG_EXE
+XMRIG_EXE_DIR
+XMRIG_HOME_DIR
+XMRIG_HOSTNAME
+XMRIG_KIND
+XMRIG_TEMP_DIR
+XMRIG_VERSION
+
+=== 229496b55d0668a40fe3d969ba4e942dc2c2fd7452b3d6f79c6beb0db631dc12 ===
+unpacked/229496b55d0668a40fe3d969ba4e942dc2c2fd7452b3d6f79c6beb0db631dc12: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
+--- DYNAMIC LIBS (readelf -d | grep NEEDED) ---
+(no dynamic info or readelf failed)
+--- SYMBOLS (readelf -s | head) ---
+--- STRINGS (network/crypto/miner heuristics) ---
+[0;31mconnect error: 
+[0;31mdetected, reconnect
+[0;31minvalid client.reconnect notification: host is not a string
+[0;31minvalid client.reconnect notification: params array has wrong size
+[0;31minvalid client.reconnect notification: params array is empty
+[0;31minvalid client.reconnect notification: params is not an array
+[0;31minvalid client.reconnect notification: port is not a string
+[0;31mno active pools, stop mining
+[0;31mthread 
+[0;33mclient.reconnect to %s
+[0;33mduplicate job received, reconnect
+[0;33m (failed to start threads)
+0 == (events & ~(POLLIN | POLLOUT | UV__POLLRDHUP | UV__POLLPRI))
+[0m threads %s%zu/%zu (%zu)
+[1;31mfailed to allocate RandomX dataset using 1GB pages
+[1;31mfailed to allocate RandomX memory
+[1;31mfast RandomX mode disabled by config
+[1;31mnot enough memory for RandomX dataset
+[1;32maccepted
+[1;33mfailed to allocate RandomX datasets, switching to slow mode
+[1;33mfailed to allocate RandomX dataset, switching to slow mode
+[1;33mno active connection
+[1;35m - CONNECTION
+[1;37mdev donate finished
+[1;37mdev donate started
+[1;37mPOOL #%-7zu
+[1;37m randomx 
+[1;37m thread%s)
+[1;37m threads)
+accept
+Accept
+Acceptable OCSP Responses
+acceptableResponses
+accepted
+Adapter, not synced with system time
+aes-128-cbc-hmac-sha1
+AES-128-CBC-HMAC-SHA1
+aes128-gcm@openssh.com
+aes-192-cbc-hmac-sha1
+AES-192-CBC-HMAC-SHA1
+aes-256-cbc-hmac-sha1
+AES-256-CBC-HMAC-SHA1
+aes256-gcm@openssh.com
+allocate a channel for new connection
+api.xmrig.com
+arptype %d not supported by libpcap - falling back to cooked socket
+Attempt to create packet socket failed - CAP_NET_RAW may be required
+auth-agent@openssh.com
+backend->is_thissystem == 0
+bad address in system call argument
+Bad socket provided
+-----BEGIN OPENSSH PRIVATE KEY-----
+Bit-sliced AES for NEON, CRYPTOGAMS by <appro@openssl.org>
+brainpoolP160r1
+brainpoolP160t1
+brainpoolP192r1
+brainpoolP192t1
+brainpoolP224r1
+brainpoolP224t1
+brainpoolP256r1
+brainpoolP256t1
+brainpoolP320r1
+brainpoolP320t1
+brainpoolP384r1
+brainpoolP384t1
+brainpoolP512r1
+brainpoolP512t1
+CAN-bus with SocketCAN headers
+Cannot send after socket shutdown
+CAN_SOCKETCAN
+can't activate %s on packet socket
+can't bind memory
+Can't create raw socket
+can't create rx ring on packet socket
+Can't create socket to get ethtool information for %s
+can't get %s header len on packet socket
+Can't listen on group index
+can't mmap rx ring
+Can't open netlink socket
+can't poll on packet socket
+chacha20-poly1305@openssh.com
+client.reconnect
+ * COMMANDS     'h' hashrate, 'p' pause, 'r' resume, 's' results, 'c' connection
+connect
+Connection
+Connection aborted
+connection already in progress
+connection refused
+Connection refused
+Connection reset by network
+connection reset by peer
+Connection reset by peer
+connection time
+connection timed out
+'connectmsg' supported only on raw ATM
+CPU #%02lld warning: "can't bind memory"
+cpubind.get_proc_cpubind
+cpubind.get_proc_last_cpu_location
+cpubind.get_thisproc_cpubind
+cpubind.get_thisproc_last_cpu_location
+cpubind.get_thisthread_cpubind
+cpubind.get_thisthread_last_cpu_location
+cpubind.get_thread_cpubind
+cpubind.set_proc_cpubind
+cpubind.set_thisproc_cpubind
+cpubind.set_thisthread_cpubind
+cpubind.set_thread_cpubind
+ctx->parent_handle->poll_ctx == ctx
+curve25519-sha256
+curve25519-sha256@libssh.org
+daemon-poll-interval
+dhSinglePass-cofactorDH-sha1kdf-scheme
+dhSinglePass-cofactorDH-sha256kdf-scheme
+dhSinglePass-stdDH-sha1kdf-scheme
+dhSinglePass-stdDH-sha256kdf-scheme
+diffie-hellman-group14-sha1
+diffie-hellman-group14-sha256
+diffie-hellman-group1-sha1
+diffie-hellman-group-exchange-sha1
+diffie-hellman-group-exchange-sha256
+<!DOCTYPE topologydiff SYSTEM "hwloc2-diff.dtd">
+<!DOCTYPE topology SYSTEM "%s">
+DONATE
+donate-level
+donate-over-proxy
+donate.ssl.xmrig.com
+donate.v2.xmrig.com
+DSA-SHA1
+DSA-SHA1-old
+dsaWithSHA1
+dsaWithSHA1-old
+dsa_with_SHA256
+ECDHE-ECDSA-AES128-GCM-SHA256
+ECDHE-RSA-AES128-GCM-SHA256
+ECDHE-RSA-AES128-SHA256
+ecdsa-sha2-nistp256-cert-v01@openssh.com
+ecdsa-sha2-nistp384-cert-v01@openssh.com
+ecdsa-sha2-nistp521-cert-v01@openssh.com
+ecdsa-with-SHA1
+ecdsa-with-SHA256
+-----END OPENSSH PRIVATE KEY-----
+Error condition on packet socket
+Error condition on packet socket: Reported error was 0
+Error parsing PEM: OpenSSH header not found
+Error waiting on socket
+Failed changing socket's blocking state to non-blocking
+Failed to get response to ssh-userauth request
+failed to get statistics from socket
+filesystem error: 
+getaddrinfo("%s") fails with error: %d
+getaddrinfo("%s" fails with system error: %d
+getrandom
+GHASH for ARMv4/NEON, CRYPTOGAMS by <appro@openssl.org>
+GHASH for ARMv8, CRYPTOGAMS by <appro@openssl.org>
+glibcxx.eh_pool
+Hangup on packet socket
+hmac-sha1-96
+hmac-sha1-etm@openssh.com
+hmac-sha2-256-etm@openssh.com
+hmac-sha2-512-etm@openssh.com
+hmacWithSHA1
+hmacWithSHA256
+Host, high precision, not synced with system time
+hrr ech accept confirmation
+hwloc_backends_is_thissystem
+hwloc_linux_get_thread_cpubind
+hwloc/linux: node P#%u cpuset intersects with previous nodes, forcing its acceptance
+hwloc_linux_set_thread_cpubind
+hwloc_linux_set_tid_cpubind
+[hwloc/membind] MPOL_PREFERRED_MANY not supported by the kernel.
+HWLOC_THISSYSTEM
+HWLOC_THISSYSTEM_ALLOWED_RESOURCES
+id-alg-dh-sig-hmac-sha1
+id-cmc-confirmCertAcceptance
+IEC 62106 Radio Data System groups
+If *all* given nodes must be used, use strict binding or the interleave policy.
+interrupted system call
+Interrupted system call
+Invalid DH-SHA1 g
+Invalid DH-SHA1 p
+Invalid DH-SHA256 g
+Invalid DH-SHA256 p
+Invalid polling request on packet socket
+ipsecEndSystem
+IPSec End System
+keepalive@libssh2.orgW
+Kernel doesn't support memory-mapped capture; a 2.6.27 or later 2.x kernel is required, with CONFIG_PACKET_MMAP specified for 2.x kernels
+kex-strict-c-v00@openssh.com
+kex-strict-s-v00@openssh.com
+left-curly-bracket
+_libssh2_channel_free
+_libssh2_cipher_crypt
+_libssh2_transport_read
+libuv-worker
+max-threads-hint
+md5-sha1
+MD5-SHA1
+membind.alloc_membind
+membind.bind_membind
+membind.firsttouch_membind
+membind.get_area_membind
+membind.get_area_memlocation
+membind.get_proc_membind
+membind.get_thisproc_membind
+membind.get_thisthread_membind
+membind.interleave_membind
+membind.migrate_membind
+membind.nexttouch_membind
+membind.set_area_membind
+membind.set_proc_membind
+membind.set_thisproc_membind
+membind.set_thisthread_membind
+membind.weighted_interleave_membind
+memory-pool
+'metaconnect' supported only on raw ATM
+Microsoft Encrypted File System
+Montgomery multiplication for ARMv4/NEON, CRYPTOGAMS by <appro@openssl.org>
+*N12_GLOBAL__N_121system_error_categoryE
+NFQNL_CFG_CMD_PF_BIND
+NFQNL_CFG_CMD_PF_UNBIND
+NFULNL_CFG_CMD_PF_BIND
+NFULNL_CFG_CMD_PF_UNBIND
+Not a socket
+no valid configuration found, try https://xmrig.com/wizard
+NSt10filesystem7__cxx1116filesystem_errorE
+openssh-key-v1
+OpenSSL 1.1.1 (compatible; BoringSSL)
+openssl.c
+OpenSSL/%.*s 
+op == EPOLL_CTL_ADD
+operation not supported on socket
+PBE-SHA1-2DES
+PBE-SHA1-3DES
+PBE-SHA1-DES
+PBE-SHA1-RC2-128
+PBE-SHA1-RC2-40
+PBE-SHA1-RC2-64
+PBE-SHA1-RC4-128
+PBE-SHA1-RC4-40
+pbeWithSHA1And128BitRC2-CBC
+pbeWithSHA1And128BitRC4
+pbeWithSHA1And2-KeyTripleDES-CBC
+pbeWithSHA1And3-KeyTripleDES-CBC
+pbeWithSHA1And40BitRC2-CBC
+pbeWithSHA1And40BitRC4
+pbeWithSHA1AndDES-CBC
+pbeWithSHA1AndRC2-CBC
+(pevents & ~(UV_READABLE | UV_WRITABLE | UV_DISCONNECT | UV_PRIORITIZED)) == 0
+PF_PACKET sockets not supported - is this WSL1?
+pool
+pool address
+pools
+pool-side hashes
+protocol wrong type for socket
+Protocol wrong type for socket
+ps-poll
+qos-cf-ack-poll
+qos-cf-poll
+qos-data-cf-ack-poll
+qos-data-cf-poll
+randomx
+RandomX
+randomx/0
+randomx/arq
+randomx/graft
+RandomX-Graft
+randomx/sfx
+randomx/test
+randomx/wow
+randomx/yada
+RandomXYadaCoin
+read-only file system
+Read-only file system
+res binder
+right-curly-bracket
+RSA-SHA1
+RSA-SHA1-2
+rsa-sha2-256-cert-v01@openssh.com
+rsa-sha2-512-cert-v01@openssh.com
+RSA-SHA256
+service not available for socket type
+%s: getrandom indicates that the entropy pool has not been initialized. Rather than continue with poor entropy, this process will block until entropy is available.
+SHA1 block transform for ARMv4/NEON/ARMv8, CRYPTOGAMS by <appro@openssl.org>
+sha1WithRSA
+sha1WithRSAEncryption
+sha256
+SHA256 block transform for ARMv4/NEON/ARMv8, CRYPTOGAMS by <appro@openssl.org>
+sha256WithRSAEncryption
+SHA512 block transform for ARMv4/NEON, CRYPTOGAMS by <appro@openssl.org>
+sk-ecdsa-sha2-nistp256@openssh.com
+sk-ssh-ed25519@openssh.com
+%s: obsolete System object only allowed at root
+Socket
+socket disconnect
+socket for SIOCETHTOOL(ETHTOOL_GET_TS_INFO)
+socket is already connected
+Socket is connected
+socket is not connected
+Socket not connected
+socket operation on non-socket
+socket type not supported
+Socket type not supported
+software caused connection abort
+src/fs-poll.c
+src/unix/poll.c
+SSH-
+SSH-2.0-libssh2_1.11.1
+ssh-connection
+ssh-ecdsa
+ssh-ed25519
+ssh-ed25519-cert-v01@openssh.com
+ssh-rsa
+ssh-rsa-cert-v01@openssh.com
+ssh-userauth
+St12system_error
+St23_Sp_counted_ptr_inplaceINSt10filesystem7__cxx1116filesystem_error5_ImplESaIS3_ELN9__gnu_cxx12_Lock_policyE1EE
+St23_Sp_counted_ptr_inplaceINSt10filesystem7__cxx114_DirESaIS2_ELN9__gnu_cxx12_Lock_policyE1EE
+stratum+ssl://
+stratum+ssl://randomx.xmrig.com:443
+stratum+ssl://%s
+stratum+tcp://
+/sys/devices/system/cpu
+/sys/devices/system/cpu/cpu0/topology/core_cpus
+/sys/devices/system/cpu/cpu0/topology/core_siblings
+/sys/devices/system/cpu/cpu0/topology/package_cpus
+/sys/devices/system/cpu/cpu0/topology/thread_siblings
+/sys/devices/system/cpu/cpu%d/acpi_cppc/nominal_freq
+/sys/devices/system/cpu/cpu%d/cache/index%d/coherency_line_size
+/sys/devices/system/cpu/cpu%d/cache/index%d/id
+/sys/devices/system/cpu/cpu%d/cache/index%d/level
+/sys/devices/system/cpu/cpu%d/cache/index%d/number_of_sets
+/sys/devices/system/cpu/cpu%d/cache/index%d/physical_line_partition
+/sys/devices/system/cpu/cpu%d/cache/index%d/shared_cpu_map
+/sys/devices/system/cpu/cpu%d/cache/index%d/size
+/sys/devices/system/cpu/cpu%d/cache/index%d/type
+/sys/devices/system/cpu/cpu%d/cpu_capacity
+/sys/devices/system/cpu/cpu%d/cpufreq/base_frequency
+/sys/devices/system/cpu/cpu%d/cpufreq/cpuinfo_max_freq
+/sys/devices/system/cpu/cpu%d/topology/book_id
+/sys/devices/system/cpu/cpu%d/topology/book_siblings
+/sys/devices/system/cpu/cpu%d/topology/cluster_cpus
+/sys/devices/system/cpu/cpu%d/topology/cluster_id
+/sys/devices/system/cpu/cpu%d/topology/core_cpus
+/sys/devices/system/cpu/cpu%d/topology/core_id
+/sys/devices/system/cpu/cpu%d/topology/core_siblings
+/sys/devices/system/cpu/cpu%d/topology/die_cpus
+/sys/devices/system/cpu/cpu%d/topology/die_id
+/sys/devices/system/cpu/cpu%d/topology/drawer_id
+/sys/devices/system/cpu/cpu%d/topology/drawer_siblings
+/sys/devices/system/cpu/cpu%d/topology/package_cpus
+/sys/devices/system/cpu/cpu%d/topology/physical_package_id
+/sys/devices/system/cpu/cpu%d/topology/thread_siblings
+/sys/devices/system/cpu/cpu%lu/online
+/sys/devices/system/cpu/cpu%lu/topology
+/sys/devices/system/cpu/cpu%u/topology/core_cpus
+/sys/devices/system/cpu/cpu%u/topology/core_id
+/sys/devices/system/cpu/cpu%u/topology/core_siblings
+/sys/devices/system/cpu/cpu%u/topology/package_cpus
+/sys/devices/system/cpu/cpu%u/topology/thread_siblings
+/sys/devices/system/cpu/online
+/sys/devices/system/cpu/possible
+/sys/devices/system/node
+/sys/devices/system/node/node0/hugepages/hugepages-2048kB/nr_hugepages
+/sys/devices/system/node/node%d/hugepages
+/sys/devices/system/node/node%d/meminfo
+/sys/devices/system/node/node{}/hugepages/hugepages-{}kB/{}_hugepages
+/sys/devices/system/node/node%u/access0/initiators
+/sys/devices/system/node/node%u/access1/initiators
+/sys/devices/system/node/node%u/cpumap
+/sys/devices/system/node/node%u/distance
+/sys/devices/system/node/node%u/memory_side_cache
+/sys/devices/system/node/node%u/memory_side_cache/index%u/indexing
+/sys/devices/system/node/node%u/memory_side_cache/index%u/line_size
+/sys/devices/system/node/node%u/memory_side_cache/index%u/size
+/sys/devices/system/node/online
+/sys/devices/system/node/possible
+system
+SystemVersionRegister
+threads
+Timed out waiting on socket
+Timeout waiting for GEX_GROUP reply SHA256
+TLS_AES_128_GCM_SHA256
+TLS_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_RSA_WITH_AES_128_GCM_SHA256
+/tmp
+Too many open files in system
+Unable to allocate a channel for new connection
+Unable to allocate memory for listener queue
+Unable to ask for ssh-userauth service
+Unable to complete request for forward-listen
+Unable to open OpenSSH ECDSA private key file
+Unable to open OpenSSH RSA private key file
+Unable to send global-request packet for forward listen request
+Unable to send Group Exchange Request SHA256
+Unexpected key length DH-SHA1
+Unexpected key length DH-SHA256
+Unexpected value DH-SHA1 g
+Unexpected value DH-SHA1 p
+Unexpected value DH-SHA256 g
+Unexpected value DH-SHA256 p
+Unknown system error
+Unknown system error %d
+USB_LINUX_MMAPPED
+uv__epoll_ctl_flush
+uv__epoll_ctl_prep
+uv_fs_poll_stop
+!uv__io_active(&handle->io_watcher, POLLIN | POLLOUT)
+!uv__io_active(&stream->io_watcher, POLLIN | POLLOUT)
+uv__io_poll
+uv__poll_io_uring
+uv_poll_start
+uv__queue_empty(&loop->wq) && "thread pool work queue not empty!"
+uv__stream_connect
+uv__tcp_connect
+UV_THREADPOOL_SIZE
+/var/build/xmrig/scripts/build/abseil-cpp/absl/container/internal/raw_hash_set.cc
+/var/build/xmrig/scripts/build/hwloc-2.12.1/include/hwloc/helper.h
+/var/build/xmrig/scripts/build/hwloc-2.12.1/include/hwloc/plugins.h
+/var/run/nscd/socket
+*   What should I do when hwloc reports "operating system" warnings?
+whirlpool
+WirelessHART
+worker-id
+Would block sending global-request packet for forward listen request
+xmrig
+XMRig
+XMRIG_CWD
+XMRIG_DATA_DIR
+XMRIG_EXE
+XMRIG_EXE_DIR
+XMRIG_HOME_DIR
+XMRIG_HOSTNAME
+XMRIG_KIND
+XMRIG_TEMP_DIR
+XMRIG_VERSION
+
+=== d6e0eb28cfe1b224f061eff0581091dac985516c78d222f4921587d2ec612010 ===
+unpacked/d6e0eb28cfe1b224f061eff0581091dac985516c78d222f4921587d2ec612010: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+--- DYNAMIC LIBS (readelf -d | grep NEEDED) ---
+(no dynamic info or readelf failed)
+--- SYMBOLS (readelf -s | head) ---
+--- STRINGS (network/crypto/miner heuristics) ---
+$ssh-A
+[0;31mconnect error: 
+[0;31mdetected, reconnect
+[0;31minvalid client.reconnect notification: host is not a string
+[0;31minvalid client.reconnect notification: params array has wrong size
+[0;31minvalid client.reconnect notification: params array is empty
+[0;31minvalid client.reconnect notification: params is not an array
+[0;31minvalid client.reconnect notification: port is not a string
+[0;31mno active pools, stop mining
+[0;31mthread 
+[0;33mclient.reconnect to %s
+[0;33mduplicate job received, reconnect
+[0;33m (failed to start threads)
+0 == (events & ~(POLLIN | POLLOUT | UV__POLLRDHUP | UV__POLLPRI))
+[0m threads %s%zu/%zu (%zu)
+[1;31mfailed to allocate RandomX dataset using 1GB pages
+[1;31mfailed to allocate RandomX memory
+[1;31mfast RandomX mode disabled by config
+[1;31mnot enough memory for RandomX dataset
+[1;32maccepted
+[1;33mcache QoS can only be enabled when all mining threads have affinity set
+[1;33mfailed to allocate RandomX datasets, switching to slow mode
+[1;33mfailed to allocate RandomX dataset, switching to slow mode
+[1;33mno active connection
+[1;35m - CONNECTION
+[1;37mdev donate finished
+[1;37mdev donate started
+[1;37mPOOL #%-7zu
+[1;37m randomx 
+[1;37m thread%s)
+[1;37m threads)
+accept
+Accept
+Acceptable OCSP Responses
+acceptableResponses
+accepted
+Adapter, not synced with system time
+aes-128-cbc-hmac-sha1
+AES-128-CBC-HMAC-SHA1
+aes128-gcm@openssh.com
+aes-192-cbc-hmac-sha1
+AES-192-CBC-HMAC-SHA1
+aes-256-cbc-hmac-sha1
+AES-256-CBC-HMAC-SHA1
+aes256-gcm@openssh.com
+AES for Intel AES-NI, CRYPTOGAMS by <appro@openssl.org>
+AES-NI GCM module for x86_64, CRYPTOGAMS by <appro@openssl.org>
+allocate a channel for new connection
+api.xmrig.com
+arptype %d not supported by libpcap - falling back to cooked socket
+auth-agent@openssh.com
+backend->is_thissystem == 0
+bad address in system call argument
+Bad socket provided
+-----BEGIN OPENSSH PRIVATE KEY-----
+brainpoolP160r1
+brainpoolP160t1
+brainpoolP192r1
+brainpoolP192t1
+brainpoolP224r1
+brainpoolP224t1
+brainpoolP256r1
+brainpoolP256t1
+brainpoolP320r1
+brainpoolP320t1
+brainpoolP384r1
+brainpoolP384t1
+brainpoolP512r1
+brainpoolP512t1
+CAN-bus with SocketCAN headers
+Cannot send after socket shutdown
+CAN_SOCKETCAN
+can't activate %s on packet socket
+can't bind memory
+Can't create raw socket
+can't create rx ring on packet socket
+can't get %s header len on packet socket
+Can't listen on group index
+can't mmap rx ring
+Can't open netlink socket
+can't poll on packet socket
+ChaCha20 for x86_64, CRYPTOGAMS by <appro@openssl.org>
+chacha20-poly1305@openssh.com
+client.reconnect
+ * COMMANDS     'h' hashrate, 'p' pause, 'r' resume, 's' results, 'c' connection
+ConnectiH
+Connection aborted
+connection already in progress
+connection refused
+Connection refused
+Connection reset by network
+connection reset by peer
+Connection reset by peer
+connection time
+connection timed out
+'connectmsg' supported only on raw ATM
+cooked-mode frame doesn't have room for sll headKernel doesn't support memory-mapped capture; a 2.6.27 or later 2.x kernel is required, with CONFIG_PACKET_MMAP specified for 2.for 2.x kernels
+CPU #%02ld warning: "can't bind memory"
+cpubind.get_proc_cpubind
+cpubind.get_proc_last_cpu_location
+cpubind.get_thisproc_cpubind
+cpubind.get_thisproc_last_cpu_location
+cpubind.get_thisthread_cpubind
+cpubind.get_thisthread_last_cpu_location
+cpubind.get_thread_cpubind
+cpubind.set_proc_cpubind
+cpubind.set_thisproc_cpubind
+cpubind.set_thisthread_cpubind
+cpubind.set_thread_cpubind
+curve25519-sha256
+curve25519-sha256@libssh.org
+daemon-poll-interval
+dhSinglePass-cofactorDH-sha1kdf-scheme
+dhSinglePass-cofactorDH-sha256kdf-scheme
+dhSinglePass-stdDH-sha1kdf-scheme
+dhSinglePass-stdDH-sha256kdf-scheme
+diffie-hellman-group14-sha1
+diffie-hellman-group14-sha256
+diffie-hellman-group1-sha1
+diffie-hellman-group-exchange-sha1
+diffie-hellman-group-exchange-sha256
+<!DOCTYPE topologydiff SYSTEM "hwloc2-diff.dtd">
+<!DOCTYPE topology SYSTEM "%s">
+DONATE
+donate-level
+donate-over-proxy
+donate.ssl.xmrig.com
+donate.v2.xmrig.com
+DSA-SHA1
+DSA-SHA1-old
+dsaWithSHA1
+dsaWithSHA1-old
+dsa_with_SHA256
+ECDHE-ECDSA-AES128-GCM-SHA256
+ECDHE-RSA-AES128-GCM-SHA256
+ECDHE-RSA-AES128-SHA256
+ecdsa-sha2-nistp256-cert-v01@openssh.com
+ecdsa-sha2-nistp384-cert-v01@openssh.com
+ecdsa-sha2-nistp521-cert-v01@openssh.com
+ecdsa-with-SHA1
+ecdsa-with-SHA256
+.eh_pool
+-----END OPENSSH PRIVATE KEY-----
+Error condition on packet socket
+Error parsing PEM: OpenSSH header not found
+Error waiting on socket
+Failed changing socket's blocking state to non-blocking
+Failed to get response to ssh-userauth request
+failed to get statistics from socket
+filesystem error: 
+getaddrinfo("%s") fails with error: %d
+getaddrinfo("%s" fails with system error: %d
+getrandom
+GHASH for x86_64, CRYPTOGAMS by <appro@openssl.org>
+glibcxx.eh_pool
+Hangup on packetError condition on packet socket: Reported errorThe interface diace disappeared
+hmac-sha1-96
+hmac-sha1-etm@openssh.com
+hmac-sha2-256-etm@openssh.com
+hmac-sha2-512-etm@openssh.com
+hmacWithSHA1
+hmacWithSHA256
+Host, high precision, not synced with system time
+hrr ech accept confirmation
+hwloc_backends_is_thissystem
+hwloc_linux_get_thread_cpubind
+hwloc/linux: node P#%u cpuset intersects with previous nodes, forcing its acceptance
+hwloc_linux_set_thread_cpubind
+hwloc_linux_set_tid_cpubind
+[hwloc/membind] MPOL_PREFERRED_MANY not supported by the kernel.
+HWLOC_THISSYSTEM
+HWLOC_THISSYSTEM_ALLOWED_RESOURCES
+id-alg-dh-sig-hmac-sha1
+id-cmc-confirmCertAcceptance
+IEC 62106 Radio Data System groups
+If *all* given nodes must be used, use strict binding or the interleave policy.
+interrupted system call
+Interrupted system call
+Invalid DH-SHA1 g
+Invalid DH-SHA1 p
+Invalid DH-SHA256 g
+Invalid DH-SHA256 p
+Invalid polling request on packen packet socket
+ipsecEndSystem
+IPSec End System
+keepalive@lve@libssh2.orgW
+kex-strict-c-v00@openssh.com
+kex-strict-s-v00@openssh.com
+left-curly-bracket
+_libssh2_channel_free
+_libssh2_cipher_crypt
+_libssh2_store_str
+_libssh2_transport_read
+libuv-worker
+max-threads-hint
+md5-sha1
+MD5-SHA1
+membind.alloc_membind
+membind.bind_membind
+membind.firsttouch_membind
+membind.get_area_membind
+membind.get_area_memlocation
+membind.get_proc_membind
+membind.get_thisproc_membind
+membind.get_thisthread_membind
+membind.interleave_membind
+membind.migrate_membind
+membind.nexttouch_membind
+membind.set_area_membind
+membind.set_proc_membind
+membind.set_thisproc_membind
+membind.set_thisthread_membind
+membind.weighted_interleave_membind
+memory-pool
+'metaconnect' supported only on raw ATM
+Microsoft Encrypted File System
+Montgomery Multiplication for x86_64, CRYPTOGAMS by <appro@openssl.org>
+Montgomery Multiplication with scatter/gather for x86_64, CRYPTOGAMS by <appro@openssl.org>
+*N12_GLOBAL__N_121system_error_categoryE
+NFQNL_CFG_CMD_PF_BIND
+NFQNL_CFG_CMD_PF_UNBIND
+NFULNL_CFG_CMD_PF_BIND
+NFULNL_CFG_CMD_PF_UNBIND
+Not a socket
+no valid configuration found, try https://xmrig.com/wizard
+NSt10filesystem7__cxx1116filesystem_errorE
+openssh-key-v1
+OpenSSL 1.1.1 (compatible; BoringSSL)
+openssl.c
+OPENSSL_ia32cap
+OpenSSL/%.*s 
+op == EPOLL_CTL_ADD
+operation not supported on socket
+Packet injection is not supported on USB devicesd on netfilter dsk-ssh-ed25519@o5519@openssh.comsk-ecdsa-sha2-nistp256@openssh.cecdsa-sha2-nistpP
+PBE-SHA1-2DES
+PBE-SHA1-3DES
+PBE-SHA1-DES
+PBE-SHA1-RC2-128
+PBE-SHA1-RC2-40
+PBE-SHA1-RC2-64
+PBE-SHA1-RC4-128
+PBE-SHA1-RC4-40
+pbeWithSHA1And128BitRC2-CBC
+pbeWithSHA1And128BitRC4
+pbeWithSHA1And2-KeyTripleDES-CBC
+pbeWithSHA1And3-KeyTripleDES-CBC
+pbeWithSHA1And40BitRC2-CBC
+pbeWithSHA1And40BitRC4
+pbeWithSHA1AndDES-CBC
+pbeWithSHA1AndRC2-CBC
+(pevents & ~(UV_READABLE | UV_WRITABLE | UV_DISCONNECT | UV_PRIORITIZED)) == 0
+pool address
+pools
+pool-side hashes
+Promiscuous mode not supported on the "any" deviAttempt to create packet socket failed - CAP_NET_RAW may be requPF_PACKET sockets not supported - is this WSL1?
+protocol wrong type for socket
+Protocol wrong type for socket
+ps-poll
+qos-cf-ack-poll
+qos-cf-poll
+qos-data-cf-ack-poll
+qos-data-cf-poll
+randomx
+RandomX
+randomx/0
+randomx/arq
+randomx/graft
+RandomX-Graft
+randomx/sfx
+randomx/test
+randomx/wow
+randomx/yada
+RandomXYadaCoin
+read-only file system
+Read-only file system
+res binder
+right-curly-bracket
+RSA-SHA1
+RSA-SHA1-2
+rsa-sha2-256-cert-v01@openssh.com
+rsa-sha2-512-cert-v01@openssh.com
+RSA-SHA256
+service not available for socket type
+%s: getrandom indicates that the entropy pool has not been initialized. Rather than continue with poor entropy, this process will block until entropy is available.
+SHA1 block transform for x86_64, CRYPTOGAMS by <appro@openssl.org>
+sha1WithRSA
+sha1WithRSAEncryption
+SHA256 block transform for x86_64, CRYPTOGAMS by <appro@openssl.org>
+sha256WithRSAEncryption
+SHA512 block transform for x86_64, CRYPTOGAMS by <appro@openssl.org>
+sk-ecdsa-sha2-nistp256@openssh.com
+sk-ssh-ed25519@openssh.com
+%s: obsolete System object only allowed at root
+ socket
+Socket
+socket disconnect
+socket for SIOCETHTOOL(ETHTOOL_GET_TS_INFO)
+socket is already connected
+Socket is connected
+socket is not connected
+Socket not connected
+socket operation on non-socket
+socket type not supported
+Socket type not supported
+software caused connection abort
+src/fs-poll.c
+src/unix/poll.c
+SSH-
+SSH-2.0-libssh2_1.11.1
+ssh-A
+ssh-connection
+ssh-ecdsa
+ssh-ed25519
+ssh-ed25519-cert-v01@openssh.com
+ssh-ed25I
+ssh-rsa
+ssh-rsa-cert-v01@openssh.com
+ssh-user
+ssh-userauth
+St12system_error
+St23_Sp_counted_ptr_inplaceINSt10filesystem7__cxx1116filesystem_error5_ImplESaIS3_ELN9__gnu_cxx12_Lock_policyE2EE
+St23_Sp_counted_ptr_inplaceINSt10filesystem7__cxx114_DirESaIS2_ELN9__gnu_cxx12_Lock_policyE2EE
+stratum+ssl://
+stratum+ssl://randomx.xmrig.com:443
+stratum+ssl://%s
+stratum+tcp://
+/sys/devices/system/cpu
+/sys/devices/system/cpu/cpu0/topology/core_cpus
+/sys/devices/system/cpu/cpu0/topology/core_siblings
+/sys/devices/system/cpu/cpu0/topology/package_cpus
+/sys/devices/system/cpu/cpu0/topology/thread_siblings
+/sys/devices/system/cpu/cpu%d/acpi_cppc/nominal_freq
+/sys/devices/system/cpu/cpu%d/cache/index%d/coherency_line_size
+/sys/devices/system/cpu/cpu%d/cache/index%d/id
+/sys/devices/system/cpu/cpu%d/cache/index%d/level
+/sys/devices/system/cpu/cpu%d/cache/index%d/number_of_sets
+/sys/devices/system/cpu/cpu%d/cache/index%d/physical_line_partition
+/sys/devices/system/cpu/cpu%d/cache/index%d/shared_cpu_map
+/sys/devices/system/cpu/cpu%d/cache/index%d/size
+/sys/devices/system/cpu/cpu%d/cache/index%d/type
+/sys/devices/system/cpu/cpu%d/cpu_capacity
+/sys/devices/system/cpu/cpu%d/cpufreq/base_frequency
+/sys/devices/system/cpu/cpu%d/cpufreq/cpuinfo_max_freq
+/sys/devices/system/cpu/cpu%d/topology/book_id
+/sys/devices/system/cpu/cpu%d/topology/book_siblings
+/sys/devices/system/cpu/cpu%d/topology/cluster_cpus
+/sys/devices/system/cpu/cpu%d/topology/cluster_id
+/sys/devices/system/cpu/cpu%d/topology/core_cpus
+/sys/devices/system/cpu/cpu%d/topology/core_id
+/sys/devices/system/cpu/cpu%d/topology/core_siblings
+/sys/devices/system/cpu/cpu%d/topology/die_cpus
+/sys/devices/system/cpu/cpu%d/topology/die_id
+/sys/devices/system/cpu/cpu%d/topology/drawer_id
+/sys/devices/system/cpu/cpu%d/topology/drawer_siblings
+/sys/devices/system/cpu/cpu%d/topology/package_cpus
+/sys/devices/system/cpu/cpu%d/topology/physical_package_id
+/sys/devices/system/cpu/cpu%d/topology/thread_siblings
+/sys/devices/system/cpu/cpu%lu/online
+/sys/devices/system/cpu/cpu%lu/topology
+/sys/devices/system/cpu/cpu%u/topology/core_cpus
+/sys/devices/system/cpu/cpu%u/topology/core_id
+/sys/devices/system/cpu/cpu%u/topology/core_siblings
+/sys/devices/system/cpu/cpu%u/topology/package_cpus
+/sys/devices/system/cpu/cpu%u/topology/thread_siblings
+/sys/devices/system/cpu/online
+/sys/devices/system/cpu/possible
+/sys/devices/system/node
+/sys/devices/system/node/node0/hugepages/hugepages-2048kB/nr_hugepages
+/sys/devices/system/node/node%d/hugepages
+/sys/devices/system/node/node%d/meminfo
+/sys/devices/system/node/node{}/hugepages/hugepages-{}kB/{}_hugepages
+/sys/devices/system/node/node%u/access0/initiators
+/sys/devices/system/node/node%u/access1/initiators
+/sys/devices/system/node/node%u/cpumap
+/sys/devices/system/node/node%u/distance
+/sys/devices/system/node/node%u/memory_side_cache
+/sys/devices/system/node/node%u/memory_side_cache/index%u/indexing
+/sys/devices/system/node/node%u/memory_side_cache/index%u/line_size
+/sys/devices/system/node/node%u/memory_side_cache/index%u/size
+/sys/devices/system/node/online
+/sys/devices/system/node/possible
+SystemVersionRegister
+threads
+Timed out waiting on socket
+Timeout waiting for GEX_GROUP reply SHA256
+TLS_AES_128_GCM_SHA256
+TLS_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_RSA_WITH_AES_128_GCM_SHA256
+/tmp
+Too many open files in system
+Unable to allocate a channel for new connection
+Unable to allocate memory for listener queue
+Unable to ask for ssh-userauth service
+Unable to complete request for forward-listen
+Unable to open OpenSSH ECDSA private key file
+Unable to open OpenSSH RSA private key file
+Unable to send global-request packet for forward listen request
+Unable to send Group Exchange Request SHA256
+Unexpected key length DH-SHA1
+Unexpected key length DH-SHA256
+Unexpected value DH-SHA1 g
+Unexpected value DH-SHA1 p
+Unexpected value DH-SHA256 g
+Unexpected value DH-SHA256 p
+Unknown system error
+Unknown system error %d
+USB_LINUX_MMAPPED
+uv__epoll_ctl_flush
+uv__epoll_ctl_prep
+uv_fs_poll_stop
+!uv__io_active(&handle->io_watcher, POLLIN | POLLOUT)
+!uv__io_active(&stream->io_watcher, POLLIN | POLLOUT)
+uv__io_poll
+uv__poll_io_uring
+uv_poll_start
+uv__queue_empty(&loop->wq) && "thread pool work queue not empty!"
+uv__stream_connect
+uv__tcp_connect
+UV_THREADPOOL_SIZE
+/var/build/xmrig/scripts/build/abseil-cpp/absl/container/internal/raw_hash_set.cc
+/var/build/xmrig/scripts/build/hwloc-2.12.1/include/hwloc/helper.h
+/var/build/xmrig/scripts/build/hwloc-2.12.1/include/hwloc/plugins.h
+/var/run/nscd/socket
+vSSH
+*   What should I do when hwloc reports "operating system" warnings?
+whirlpool
+WirelessHART
+worker-id
+Would block sending global-request packet for forward listen request
+xmrig
+XMRig
+XMRIG_CWD
+XMRIG_DATA_DIR
+XMRIG_EXE
+XMRIG_EXE_DIR
+XMRIG_HOME_DIR
+XMRIG_HOSTNAME
+XMRIG_KIND
+XMRIG_TEMP_DIR
+XMRIG_VERSION
+
+=== ee7a31fb0d3c29ca435f08fd147a434c6db921b69d32c8894539a8199b0b15c0 ===
+unpacked/ee7a31fb0d3c29ca435f08fd147a434c6db921b69d32c8894539a8199b0b15c0: ELF 32-bit LSB executable, Intel i386, version 1 (SYSV), statically linked, stripped
+--- DYNAMIC LIBS (readelf -d | grep NEEDED) ---
+(no dynamic info or readelf failed)
+--- SYMBOLS (readelf -s | head) ---
+--- STRINGS (network/crypto/miner heuristics) ---
+[0;31mconnect error: 
+[0;31mdetected, reconnect
+[0;31minvalid client.reconnect notification: host is not a string
+[0;31minvalid client.reconnect notification: params array has wrong size
+[0;31minvalid client.reconnect notification: params array is empty
+[0;31minvalid client.reconnect notification: params is not an array
+[0;31minvalid client.reconnect notification: port is not a string
+[0;31mno active pools, stop mining
+[0;31mthread 
+[0;33mclient.reconnect to %s
+[0;33mduplicate job received, reconnect
+[0;33m (failed to start threads)
+0 == (events & ~(POLLIN | POLLOUT | UV__POLLRDHUP | UV__POLLPRI))
+[0m threads %s%zu/%zu (%zu)
+[1;31mfailed to allocate RandomX dataset using 1GB pages
+[1;31mfailed to allocate RandomX memory
+[1;31mfast RandomX mode disabled by config
+[1;31mnot enough memory for RandomX dataset
+[1;32maccepted
+[1;33mfailed to allocate RandomX datasets, switching to slow mode
+[1;33mfailed to allocate RandomX dataset, switching to slow mode
+[1;33mno active connection
+[1;35m - CONNECTION
+[1;37mdev donate finished
+[1;37mdev donate started
+[1;37mPOOL #%-7zu
+[1;37m randomx 
+[1;37m thread%s)
+[1;37m threads)
+accept
+Accept
+Acceptable OCSP Responses
+acceptableResponses
+accepted
+Adapter, not synced with system time
+aes-128-cbc-hmac-sha1
+AES-128-CBC-HMAC-SHA1
+aes128-gcm@openssh.com
+aes-192-cbc-hmac-sha1
+AES-192-CBC-HMAC-SHA1
+aes-256-cbc-hmac-sha1
+AES-256-CBC-HMAC-SHA1
+aes256-gcm@openssh.com
+AES for Intel AES-NI, CRYPTOGAMS by <appro@openssl.org>
+allocate a channel for new connection
+api.xmrig.com
+arptype %d not supported by libpcap - falling back to cooked socket
+ASSh
+Attempt to create packet socket failed - CAP_NET_RAW may be required
+auth-agent@openssh.com
+backend->is_thissystem == 0
+bad address in system call argument
+Bad socket provided
+-----BEGIN OPENSSH PRIVATE KEY-----
+brainpoolP160r1
+brainpoolP160t1
+brainpoolP192r1
+brainpoolP192t1
+brainpoolP224r1
+brainpoolP224t1
+brainpoolP256r1
+brainpoolP256t1
+brainpoolP320r1
+brainpoolP320t1
+brainpoolP384r1
+brainpoolP384t1
+brainpoolP512r1
+brainpoolP512t1
+CAN-bus with SocketCAN headers
+Cannot send after socket shutdown
+CAN_SOCKETCAN
+can't activate %s on packet socket
+can't bind memory
+Can't create raw socket
+can't create rx ring on packet socket
+can't get %s header len on packet socket
+Can't listen on group index
+can't mmap rx ring
+Can't open netlink socket
+can't poll on packet socket
+ChaCha20 for x86, CRYPTOGAMS by <appro@openssl.org>
+chacha20-poly1305@openssh.com
+client.reconnect
+ * COMMANDS     'h' hashrate, 'p' pause, 'r' resume, 's' results, 'c' connection
+Connection aborted
+connection already in progress
+connection refused
+Connection refused
+Connection reset by network
+connection reset by peer
+Connection reset by peer
+connection time
+connection timed out
+'connectmsg' supported only on raw ATM
+CPU #%02lld warning: "can't bind memory"
+cpubind.get_proc_cpubind
+cpubind.get_proc_last_cpu_location
+cpubind.get_thisproc_cpubind
+cpubind.get_thisproc_last_cpu_location
+cpubind.get_thisthread_cpubind
+cpubind.get_thisthread_last_cpu_location
+cpubind.get_thread_cpubind
+cpubind.set_proc_cpubind
+cpubind.set_thisproc_cpubind
+cpubind.set_thisthread_cpubind
+cpubind.set_thread_cpubind
+curve25519-sha256
+curve25519-sha256@libssh.org
+daemon-poll-interval
+dhSinglePass-cofactorDH-sha1kdf-scheme
+dhSinglePass-cofactorDH-sha256kdf-scheme
+dhSinglePass-stdDH-sha1kdf-scheme
+dhSinglePass-stdDH-sha256kdf-scheme
+diffie-hellman-group14-sha1
+diffie-hellman-group14-sha256
+diffie-hellman-group1-sha1
+diffie-hellman-group-exchange-sha1
+diffie-hellman-group-exchange-sha256
+<!DOCTYPE topologydiff SYSTEM "hwloc2-diff.dtd">
+<!DOCTYPE topology SYSTEM "%s">
+DONATE
+donate-level
+donate-over-proxy
+donate.ssl.xmrig.com
+donate.v2.xmrig.com
+DSA-SHA1
+DSA-SHA1-old
+dsaWithSHA1
+dsaWithSHA1-old
+dsa_with_SHA256
+ECDHE-ECDSA-AES128-GCM-SHA256
+ECDHE-RSA-AES128-GCM-SHA256
+ECDHE-RSA-AES128-SHA256
+ecdsa-sha2-nistp256-cert-v01@openssh.com
+ecdsa-sha2-nistp384-cert-v01@openssh.com
+ecdsa-sha2-nistp521-cert-v01@openssh.com
+ecdsa-with-SHA1
+ecdsa-with-SHA256
+-----END OPENSSH PRIVATE KEY-----
+Error condition on packet socket
+Error parsing PEM: OpenSSH header not found
+Error waiting on socket
+Failed changing socket's blocking state to non-blocking
+Failed to get response to ssh-userauth request
+failed to get statistics from socket
+filesystem error: 
+getaddrinfo("%s") fails with error: %d
+getaddrinfo("%s" fails with system error: %d
+getrandom
+GHASH for x86, CRYPTOGAMS by <appro@openssl.org>
+glibcxx.eh_pool
+hmac-sha1-96
+hmac-sha1-etm@openssh.com
+hmac-sha2-256-etm@openssh.com
+hmac-sha2-512-etm@openssh.com
+hmacWithSHA1
+hmacWithSHA256
+Host, high precision, not synced with system time
+hrr ech accept confirmation
+hwloc_backends_is_thissystem
+hwloc_linux_get_thread_cpubind
+hwloc/linux: node P#%u cpuset intersects with previous nodes, forcing its acceptance
+hwloc_linux_set_thread_cpubind
+hwloc_linux_set_tid_cpubind
+[hwloc/membind] MPOL_PREFERRED_MANY not supported by the kernel.
+HWLOC_THISSYSTEM
+HWLOC_THISSYSTEM_ALLOWED_RESOURCES
+id-alg-dh-sig-hmac-sha1
+id-cmc-confirmCertAcceptance
+IEC 62106 Radio Data System groups
+If *all* given nodes must be used, use strict binding or the interleave policy.
+interrupted system call
+Interrupted system call
+Invalid DH-SHA1 g
+Invalid DH-SHA1 p
+Invalid DH-SHA256 g
+Invalid DH-SHA256 p
+ipsecEndSystem
+IPSec End System
+Kernel doesn't support memory-mapped capture; a 2.6.27 or later 2.x kernel is required, with CONFIG_PACKET_MMAP specified for 2.x kernels
+kex-strict-c-v00@openssh.com
+kex-strict-s-v00@openssh.com
+left-curly-bracket
+_libssh2_channel_free
+_libssh2_cipher_crypt
+_libssh2_transport_read
+libuv-worker
+max-threads-hint
+md5-sha1
+MD5-SHA1
+membind.alloc_membind
+membind.bind_membind
+membind.firsttouch_membind
+membind.get_area_membind
+membind.get_area_memlocation
+membind.get_proc_membind
+membind.get_thisproc_membind
+membind.get_thisthread_membind
+membind.interleave_membind
+membind.migrate_membind
+membind.nexttouch_membind
+membind.set_area_membind
+membind.set_proc_membind
+membind.set_thisproc_membind
+membind.set_thisthread_membind
+membind.weighted_interleave_membind
+memory-pool
+'metaconnect' supported only on raw ATM
+Microsoft Encrypted File System
+Montgomery Multiplication for x86, CRYPTOGAMS by <appro@openssl.org>
+*N12_GLOBAL__N_121system_error_categoryE
+NFQNL_CFG_CMD_PF_BIND
+NFQNL_CFG_CMD_PF_UNBIND
+NFULNL_CFG_CMD_PF_BIND
+NFULNL_CFG_CMD_PF_UNBIND
+Not a socket
+no valid configuration found, try https://xmrig.com/wizard
+NSt10filesystem7__cxx1116filesystem_errorE
+openssh-key-v1
+OpenSSL 1.1.1 (compatible; BoringSSL)
+openssl.c
+OPENSSL_ia32cap
+OpenSSL/%.*s 
+op == EPOLL_CTL_ADD
+operation not supported on socket
+PBE-SHA1-2DES
+PBE-SHA1-3DES
+PBE-SHA1-DES
+PBE-SHA1-RC2-128
+PBE-SHA1-RC2-40
+PBE-SHA1-RC2-64
+PBE-SHA1-RC4-128
+PBE-SHA1-RC4-40
+pbeWithSHA1And128BitRC2-CBC
+pbeWithSHA1And128BitRC4
+pbeWithSHA1And2-KeyTripleDES-CBC
+pbeWithSHA1And3-KeyTripleDES-CBC
+pbeWithSHA1And40BitRC2-CBC
+pbeWithSHA1And40BitRC4
+pbeWithSHA1AndDES-CBC
+pbeWithSHA1AndRC2-CBC
+(pevents & ~(UV_READABLE | UV_WRITABLE | UV_DISCONNECT | UV_PRIORITIZED)) == 0
+poll
+pool address
+pools
+pool-side hashes
+poolu
+protocol wrong type for socket
+Protocol wrong type for socket
+ps-poll
+qos-cf-ack-poll
+qos-cf-poll
+qos-data-cf-ack-poll
+qos-data-cf-poll
+randomx
+RandomX
+randomx/0
+randomx/arq
+randomx/graft
+RandomX-Graft
+randomx/sfx
+randomx/test
+randomx/wow
+randomx/yada
+RandomXYadaCoin
+read-only file system
+Read-only file system
+res binder
+right-curly-bracket
+RSA-SHA1
+RSA-SHA1-2
+rsa-sha2-256-cert-v01@openssh.com
+rsa-sha2-512-cert-v01@openssh.com
+RSA-SHA256
+service not available for socket type
+%s: getrandom indicates that the entropy pool has not been initialized. Rather than continue with poor entropy, this process will block until entropy is available.
+SHA1 block transform for x86, CRYPTOGAMS by <appro@openssl.org>
+sha1WithRSA
+sha1WithRSAEncryption
+SHA256 block transform for x86, CRYPTOGAMS by <appro@openssl.org>
+sha256WithRSAEncryption
+SHA512 block transform for x86, CRYPTOGAMS by <appro@openssl.org>
+sk-ecdsa-sha2-nistp256@openssh.com
+sk-ssh-ed25519@openssh.com
+%s: obsolete System object only allowed at root
+Socket
+socket disconnect
+socket for SIOCETHTOOL(ETHTOOL_GET_TS_INFO)
+socket is already connected
+Socket is connected
+socket is not connected
+Socket not connected
+socket operation on non-socket
+socket type not supported
+Socket type not supported
+software caused connection abort
+src/fs-poll.c
+src/unix/poll.c
+ssh-
+SSH-
+SSH-2.0-libssh2_1.11.1
+ssh-connection
+ssh-ecdsa
+ssh-ed25519
+ssh-ed25519-cert-v01@openssh.com
+ssh-rsa
+ssh-rsa-cert-v01@openssh.com
+ssh-userauth
+St12system_error
+St23_Sp_counted_ptr_inplaceINSt10filesystem7__cxx1116filesystem_error5_ImplESaIS3_ELN9__gnu_cxx12_Lock_policyE2EE
+St23_Sp_counted_ptr_inplaceINSt10filesystem7__cxx114_DirESaIS2_ELN9__gnu_cxx12_Lock_policyE2EE
+stratum+ssl://
+stratum+ssl://randomx.xmrig.com:443
+stratum+ssl://%s
+stratum+tcp://
+/sys/devices/system/cpu
+/sys/devices/system/cpu/cpu0/topology/core_cpus
+/sys/devices/system/cpu/cpu0/topology/core_siblings
+/sys/devices/system/cpu/cpu0/topology/package_cpus
+/sys/devices/system/cpu/cpu0/topology/thread_siblings
+/sys/devices/system/cpu/cpu%d/acpi_cppc/nominal_freq
+/sys/devices/system/cpu/cpu%d/cache/index%d/coherency_line_size
+/sys/devices/system/cpu/cpu%d/cache/index%d/id
+/sys/devices/system/cpu/cpu%d/cache/index%d/level
+/sys/devices/system/cpu/cpu%d/cache/index%d/number_of_sets
+/sys/devices/system/cpu/cpu%d/cache/index%d/physical_line_partition
+/sys/devices/system/cpu/cpu%d/cache/index%d/shared_cpu_map
+/sys/devices/system/cpu/cpu%d/cache/index%d/size
+/sys/devices/system/cpu/cpu%d/cache/index%d/type
+/sys/devices/system/cpu/cpu%d/cpu_capacity
+/sys/devices/system/cpu/cpu%d/cpufreq/base_frequency
+/sys/devices/system/cpu/cpu%d/cpufreq/cpuinfo_max_freq
+/sys/devices/system/cpu/cpu%d/topology/book_id
+/sys/devices/system/cpu/cpu%d/topology/book_siblings
+/sys/devices/system/cpu/cpu%d/topology/cluster_cpus
+/sys/devices/system/cpu/cpu%d/topology/cluster_id
+/sys/devices/system/cpu/cpu%d/topology/core_cpus
+/sys/devices/system/cpu/cpu%d/topology/core_id
+/sys/devices/system/cpu/cpu%d/topology/core_siblings
+/sys/devices/system/cpu/cpu%d/topology/die_cpus
+/sys/devices/system/cpu/cpu%d/topology/die_id
+/sys/devices/system/cpu/cpu%d/topology/drawer_id
+/sys/devices/system/cpu/cpu%d/topology/drawer_siblings
+/sys/devices/system/cpu/cpu%d/topology/package_cpus
+/sys/devices/system/cpu/cpu%d/topology/physical_package_id
+/sys/devices/system/cpu/cpu%d/topology/thread_siblings
+/sys/devices/system/cpu/cpu%lu/online
+/sys/devices/system/cpu/cpu%lu/topology
+/sys/devices/system/cpu/cpu%u/topology/core_cpus
+/sys/devices/system/cpu/cpu%u/topology/core_id
+/sys/devices/system/cpu/cpu%u/topology/core_siblings
+/sys/devices/system/cpu/cpu%u/topology/package_cpus
+/sys/devices/system/cpu/cpu%u/topology/thread_siblings
+/sys/devices/system/cpu/online
+/sys/devices/system/cpu/possible
+/sys/devices/system/node
+/sys/devices/system/node/node0/hugepages/hugepages-2048kB/nr_hugepages
+/sys/devices/system/node/node%d/hugepages
+/sys/devices/system/node/node%d/meminfo
+/sys/devices/system/node/node{}/hugepages/hugepages-{}kB/{}_hugepages
+/sys/devices/system/node/node%u/access0/initiators
+/sys/devices/system/node/node%u/access1/initiators
+/sys/devices/system/node/node%u/cpumap
+/sys/devices/system/node/node%u/distance
+/sys/devices/system/node/node%u/memory_side_cache
+/sys/devices/system/node/node%u/memory_side_cache/index%u/indexing
+/sys/devices/system/node/node%u/memory_side_cache/index%u/line_size
+/sys/devices/system/node/node%u/memory_side_cache/index%u/size
+/sys/devices/system/node/online
+/sys/devices/system/node/possible
+SystemVersionRegister
+threads
+Timed out waiting on socket
+Timeout waiting for GEX_GROUP reply SHA256
+TLS_AES_128_GCM_SHA256
+TLS_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_RSA_WITH_AES_128_GCM_SHA256
+/tmp
+Too many open files in system
+Unable to allocate a channel for new connection
+Unable to allocate memory for listener queue
+Unable to ask for ssh-userauth service
+Unable to complete request for forward-listen
+Unable to open OpenSSH ECDSA private key file
+Unable to open OpenSSH RSA private key file
+Unable to send global-request packet for forward listen request
+Unable to send Group Exchange Request SHA256
+Unexpected key length DH-SHA1
+Unexpected key length DH-SHA256
+Unexpected value DH-SHA1 g
+Unexpected value DH-SHA1 p
+Unexpected value DH-SHA256 g
+Unexpected value DH-SHA256 p
+Unknown system error
+Unknown system error %d
+USB_LINUX_MMAPPED
+uv__epoll_ctl_flush
+uv__epoll_ctl_prep
+uv_fs_poll_stop
+!uv__io_active(&handle->io_watcher, POLLIN | POLLOUT)
+!uv__io_active(&stream->io_watcher, POLLIN | POLLOUT)
+uv__io_poll
+uv__poll_io_uring
+uv_poll_start
+uv__queue_empty(&loop->wq) && "thread pool work queue not empty!"
+uv__stream_connect
+uv__tcp_connect
+UV_THREADPOOL_SIZE
+/var/build/xmrig/scripts/build/abseil-cpp/absl/container/internal/raw_hash_set.cc
+/var/build/xmrig/scripts/build/hwloc-2.12.1/include/hwloc/helper.h
+/var/build/xmrig/scripts/build/hwloc-2.12.1/include/hwloc/plugins.h
+/var/run/nscd/socket
+*   What should I do when hwloc reports "operating system" warnings?
+whirlpool
+WirelessHART
+worker-id
+Would block sending global-request packet for forward listen request
+xmrig
+XMRig
+XMRIG_CWD
+XMRIG_DATA_DIR
+XMRIG_EXE
+XMRIG_EXE_DIR
+XMRIG_HOME_DIR
+XMRIG_HOSTNAME
+XMRIG_KIND
+XMRIG_TEMP_DIR
+XMRIG_VERSION
+

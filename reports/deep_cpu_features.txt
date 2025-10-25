@@ -1,0 +1,294 @@
+=== 89782d8142297907c9962eebdae29c28df86805a99f38a683ab55c8fa1596dd8 ===
+unpacked/89782d8142297907c9962eebdae29c28df86805a99f38a683ab55c8fa1596dd8: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+--- readelf -A (arch attrs / SIMD hints) ---
+--- objdump -d (AES/AVX/SSE/SHA/NEON/CPUID mnemonics) ---
+--- strings (feature detection & perf hints) ---
+[0m %s %sAES%s
+[1;30mfingerprint (SHA-256): "%s"
+@9Sha8T
+'addr1' and 'address1' are not valid qualifiers for addresses other than 802.11 MAC addresses
+'addr2' and 'address2' are not valid qualifiers for addresses other than 802.11 MAC addresses
+'addr3' and 'address3' are not valid qualifiers for addresses other than 802.11 MAC addresses
+'addr4' and 'address4' are not valid qualifiers for addresses other than 802.11 MAC addresses
+AES(128)
+AES128
+aes-128-cbc
+aes128-cbc
+AES-128-CBC
+aes-128-cbc-hmac-sha1
+AES-128-CBC-HMAC-SHA1
+aes-128-ccm
+aes-128-cfb
+AES-128-CFB
+aes-128-cfb1
+AES-128-CFB1
+aes-128-cfb8
+AES-128-CFB8
+aes-128-ctr
+aes128-ctr
+AES-128-CTR
+aes-128-ecb
+AES-128-ECB
+aes-128-gcm
+aes128-gcm@openssh.com
+AES128-GCM-SHA256
+aes-128-ofb
+AES-128-OFB
+AES128-SHA
+aes-128-xts
+AES-128-XTS
+aes-192-cbc
+aes192-cbc
+AES-192-CBC
+aes-192-cbc-hmac-sha1
+AES-192-CBC-HMAC-SHA1
+aes-192-ccm
+
+=== 229496b55d0668a40fe3d969ba4e942dc2c2fd7452b3d6f79c6beb0db631dc12 ===
+unpacked/229496b55d0668a40fe3d969ba4e942dc2c2fd7452b3d6f79c6beb0db631dc12: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
+--- readelf -A (arch attrs / SIMD hints) ---
+  Tag_CPU_name: "7-A"
+  Tag_CPU_arch: v7
+  Tag_CPU_arch_profile: Application
+  Tag_ARM_ISA_use: Yes
+  Tag_THUMB_ISA_use: Thumb-2
+  Tag_FP_arch: VFPv3
+  Tag_Advanced_SIMD_arch: NEONv1
+  Tag_ABI_PCS_wchar_t: 4
+  Tag_ABI_FP_rounding: Needed
+  Tag_ABI_FP_denormal: Needed
+  Tag_ABI_FP_exceptions: Needed
+  Tag_ABI_FP_number_model: IEEE 754
+  Tag_ABI_align_needed: 8-byte
+  Tag_ABI_enum_size: int
+  Tag_ABI_VFP_args: VFP registers
+  Tag_ABI_optimization_goals: Aggressive Speed
+  Tag_CPU_unaligned_access: v6
+--- objdump -d (AES/AVX/SSE/SHA/NEON/CPUID mnemonics) ---
+--- strings (feature detection & perf hints) ---
+[0m %s %sAES%s
+[1;30mfingerprint (SHA-256): "%s"
+'addr1' and 'address1' are not valid qualifiers for addresses other than 802.11 MAC addresses
+'addr2' and 'address2' are not valid qualifiers for addresses other than 802.11 MAC addresses
+'addr3' and 'address3' are not valid qualifiers for addresses other than 802.11 MAC addresses
+'addr4' and 'address4' are not valid qualifiers for addresses other than 802.11 MAC addresses
+AES(128)
+AES128
+aes-128-cbc
+aes128-cbc
+AES-128-CBC
+aes-128-cbc-hmac-sha1
+AES-128-CBC-HMAC-SHA1
+aes-128-ccm
+aes-128-cfb
+AES-128-CFB
+aes-128-cfb1
+AES-128-CFB1
+aes-128-cfb8
+AES-128-CFB8
+aes-128-ctr
+aes128-ctr
+AES-128-CTR
+aes-128-ecb
+AES-128-ECB
+aes-128-gcm
+aes128-gcm@openssh.com
+aes-128-ofb
+AES-128-OFB
+aes-128-xts
+AES-128-XTS
+aes-192-cbc
+aes192-cbc
+AES-192-CBC
+aes-192-cbc-hmac-sha1
+AES-192-CBC-HMAC-SHA1
+aes-192-ccm
+aes-192-cfb
+AES-192-CFB
+aes-192-cfb1
+
+=== d6e0eb28cfe1b224f061eff0581091dac985516c78d222f4921587d2ec612010 ===
+unpacked/d6e0eb28cfe1b224f061eff0581091dac985516c78d222f4921587d2ec612010: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+--- readelf -A (arch attrs / SIMD hints) ---
+--- objdump -d (AES/AVX/SSE/SHA/NEON/CPUID mnemonics) ---
+  4a0b88:	0f a2                	cpuid
+  4a0b9f:	0f a2                	cpuid
+  4a0bc8:	0f a2                	cpuid
+  4a0be7:	0f a2                	cpuid
+  4a0c18:	0f a2                	cpuid
+  4a0c38:	0f a2                	cpuid
+  4a0c58:	0f a2                	cpuid
+  4a0d1a:	0f a2                	cpuid
+  4a0d42:	0f a2                	cpuid
+  4a0e07:	0f a2                	cpuid
+  4a0e36:	0f a2                	cpuid
+  4a0e5d:	0f a2                	cpuid
+  4a0e81:	0f a2                	cpuid
+  4a0ea5:	0f a2                	cpuid
+  4a0ec5:	0f a2                	cpuid
+  4a0ee0:	0f a2                	cpuid
+  4a0efe:	0f a2                	cpuid
+  4a0f1a:	0f a2                	cpuid
+  4a0f3a:	0f a2                	cpuid
+  4a0f57:	0f a2                	cpuid
+  4a0f77:	0f a2                	cpuid
+  4a0f94:	0f a2                	cpuid
+  4a0fbb:	0f a2                	cpuid
+  4a0fe4:	0f a2                	cpuid
+  4a1254:	0f a2                	cpuid
+  4a1278:	0f a2                	cpuid
+  4a1397:	0f a2                	cpuid
+  4a13c7:	0f a2                	cpuid
+  4a13e7:	0f a2                	cpuid
+  4a1417:	0f a2                	cpuid
+  4a1447:	0f a2                	cpuid
+  6e2245:	0f a2                	cpuid
+  6e2288:	0f a2                	cpuid
+  6e2296:	0f a2                	cpuid
+  736b3f:	0f a2                	cpuid
+  737e08:	0f a2                	cpuid
+  781160:	0f a2                	cpuid
+  78118e:	0f a2                	cpuid
+  7811b2:	0f a2                	cpuid
+  7811d5:	0f a2                	cpuid
+  781276:	0f a2                	cpuid
+  781296:	0f a2                	cpuid
+  7812ce:	0f a2                	cpuid
+  7812f3:	0f a2                	cpuid
+  781306:	0f a2                	cpuid
+  781338:	0f a2                	cpuid
+  781342:	0f a2                	cpuid
+  781365:	0f a2                	cpuid
+  781397:	0f a2                	cpuid
+  7813a6:	0f a2                	cpuid
+  7813e8:	0f a2                	cpuid
+  781403:	0f a2                	cpuid
+  781457:	0f a2                	cpuid
+  781469:	0f a2                	cpuid
+  7814bb:	0f a2                	cpuid
+  78152b:	0f a2                	cpuid
+  7815b8:	0f a2                	cpuid
+--- strings (feature detection & perf hints) ---
+[0m %s %sAES%s
+[1;30mfingerprint (SHA-256): "%s"
+'addr1' and 'address1' are not valid qualifiers for addresses other than 802.11 MAC addresses
+'addr2' and 'address2' are not valid qualifiers for addresses other than 802.11 MAC addresses
+'addr3' and 'address3' are not valid qualifiers for addresses other than 802.11 MAC addresses
+'addr4' and 'address4' are not valid qualifiers for addresses other than 802.11 MAC addresses
+AES(128)
+AES128
+aes-128-cbc
+aes128-cbc
+aes-128-cbc-hmac-sha1
+AES-128-CBC-HMAC-SHA1
+aes-128-ccm
+aes-128-cfb
+AES-128-CFB
+aes-128-cfb1
+AES-128-CFB1
+aes-128-cfb8
+AES-128-CFB8
+aes-128-ctr
+aes128-ctr
+AES-128-CTR
+aes-128-ecb
+AES-128-ECB
+aes-128-gcm
+aes128-gcm@openssh.com
+AES-128-H9
+aes-128-ofb
+AES-128-OFB
+aes-128-xts
+AES-128-XTS
+aes-192-cbc
+aes192-cbc
+aes-192-cbc-hmac-sha1
+AES-192-CBC-HMAC-SHA1
+aes-192-ccm
+aes-192-cfb
+AES-192-CFB
+aes-192-cfb1
+AES-192-CFB1
+
+=== ee7a31fb0d3c29ca435f08fd147a434c6db921b69d32c8894539a8199b0b15c0 ===
+unpacked/ee7a31fb0d3c29ca435f08fd147a434c6db921b69d32c8894539a8199b0b15c0: ELF 32-bit LSB executable, Intel i386, version 1 (SYSV), statically linked, stripped
+--- readelf -A (arch attrs / SIMD hints) ---
+--- objdump -d (AES/AVX/SSE/SHA/NEON/CPUID mnemonics) ---
+ 805c1cf:	0f a2                	cpuid
+ 805c1de:	0f a2                	cpuid
+ 80e4f68:	0f a2                	cpuid
+ 80e4f84:	0f a2                	cpuid
+ 80e5049:	0f a2                	cpuid
+ 80e506f:	0f a2                	cpuid
+ 80e5098:	0f a2                	cpuid
+ 80e50be:	0f a2                	cpuid
+ 80e50e4:	0f a2                	cpuid
+ 80e5107:	0f a2                	cpuid
+ 80e511e:	0f a2                	cpuid
+ 80e5138:	0f a2                	cpuid
+ 80e5154:	0f a2                	cpuid
+ 80e5171:	0f a2                	cpuid
+ 80e518b:	0f a2                	cpuid
+ 80e51a8:	0f a2                	cpuid
+ 80e51c2:	0f a2                	cpuid
+ 80e51e5:	0f a2                	cpuid
+ 80e5210:	0f a2                	cpuid
+ 80e5327:	0f a2                	cpuid
+ 80e535f:	0f a2                	cpuid
+ 80e546f:	0f a2                	cpuid
+ 80e548f:	0f a2                	cpuid
+ 80e54c7:	0f a2                	cpuid
+ 832d16b:	0f a2                	cpuid
+ 832d1b5:	0f a2                	cpuid
+ 832d1c4:	0f a2                	cpuid
+ 83812ce:	0f a2                	cpuid
+ 8382526:	0f a2                	cpuid
+ 83d055a:	0f a2                	cpuid
+ 83d0659:	0f a2                	cpuid
+ 83d067e:	0f a2                	cpuid
+ 83d0695:	0f a2                	cpuid
+ 83d06ff:	0f a2                	cpuid
+ 83d07b1:	0f a2                	cpuid
+ 83d0881:	0f a2                	cpuid
+--- strings (feature detection & perf hints) ---
+[0m %s %sAES%s
+[1;30mfingerprint (SHA-256): "%s"
+5AES-
+'addr1' and 'address1' are not valid qualifiers for addresses other than 802.11 MAC addresses
+'addr2' and 'address2' are not valid qualifiers for addresses other than 802.11 MAC addresses
+'addr3' and 'address3' are not valid qualifiers for addresses other than 802.11 MAC addresses
+'addr4' and 'address4' are not valid qualifiers for addresses other than 802.11 MAC addresses
+AES(128)
+AES128
+aes-128-cbc
+aes128-cbc
+aes-128-cbc-hmac-sha1
+AES-128-CBC-HMAC-SHA1
+aes-128-ccm
+aes-128-cfb
+AES-128-CFB
+aes-128-cfb1
+AES-128-CFB1
+aes-128-cfb8
+AES-128-CFB8
+aes-128-ctr
+aes128-ctr
+AES-128-CTR
+aes-128-ecb
+AES-128-ECB
+aes-128-gcm
+aes128-gcm@openssh.com
+aes-128-ofb
+AES-128-OFB
+aes-128-xts
+AES-128-XTS
+aes-192-cbc
+aes192-cbc
+aes-192-cbc-hmac-sha1
+AES-192-CBC-HMAC-SHA1
+aes-192-ccm
+aes-192-cfb
+AES-192-CFB
+aes-192-cfb1
+AES-192-CFB1
+

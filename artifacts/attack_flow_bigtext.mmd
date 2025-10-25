@@ -1,0 +1,30 @@
+flowchart LR
+%% High-visibility export: big black text, no emojis, fixed line breaks
+
+classDef exec fill:#1f77b4,stroke:#08306b,color:#000000,stroke-width:1px,font-size:20px;
+classDef decision fill:#ff7f0e,stroke:#7f2700,color:#000000,stroke-width:1px,font-size:20px;
+classDef persist fill:#2ca02c,stroke:#0b5a0b,color:#000000,stroke-width:1px,font-size:20px;
+classDef impact fill:#d62728,stroke:#7a0a0a,color:#000000,stroke-width:1px,font-size:20px;
+classDef net fill:#9467bd,stroke:#41235b,color:#000000,stroke-width:1px,font-size:20px;
+classDef op fill:#8c564b,stroke:#4a2b24,color:#000000,stroke-width:1px,font-size:20px;
+classDef note fill:#e3e3e3,stroke:#3f3f3f,color:#000000,stroke-width:1px,stroke-dasharray:5 5,font-size:18px;
+
+IA["Initial Access<br/>SSH brute force"]:::exec --> Exec
+Exec["Execution<br/>Deploy stager; write redtail.\$ARCH"]:::exec --> ArchCheck
+
+ArchCheck{"Architecture detected?<br/>(x86_64 / i686 / arm / aarch64)"}:::decision -->|x86_64 / amd64| DropPath
+ArchCheck -->|arm / aarch64 / arm7| DropPath
+
+DropPath(("Choose drop path<br/>/tmp, /dev/shm, user-writable dirs")):::persist --> NoExec
+NoExec{"Target mount has noexec?"}:::decision -->|yes| Fallback
+NoExec -->|no| Install
+
+Fallback(("Fallback location<br/>/var/tmp or user dir")):::op --> Install
+Install["Install & execute binary<br/>(selects variant; start xmrig)"]:::exec --> Persist
+Persist["Persistence<br/>cron/systemd entries; file drops"]:::persist --> Cleaner
+Cleaner["Cleaner / Competitor-killer<br/>chattr -ia; scrub crontabs; pkill/killall"]:::op --> Net
+Net["Network / C2<br/>stratum+ssl://randomx.xmrig.com:443"]:::net --> Impact
+Impact["Impact<br/>Resource hijack — XMR mining (RandomX)"]:::impact
+
+note1(("Decision: arch → selects redtail.<arch> binary<br/>See strings/783adb7a*.full.txt for stager logic")):::note
+ArchCheck --- note1

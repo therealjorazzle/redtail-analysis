@@ -1,0 +1,40 @@
+flowchart LR
+%% Attack flow — Redtail / XMRig (starter, follows artifacts/attack_legend.md)
+
+classDef exec fill:#1f77b4,stroke:#08306b,color:#ffffff,stroke-width:1px;
+classDef decision fill:#ff7f0e,stroke:#7f2700,color:#000000,stroke-width:1px;
+classDef persist fill:#2ca02c,stroke:#0b5a0b,color:#ffffff,stroke-width:1px;
+classDef impact fill:#d62728,stroke:#7a0a0a,color:#ffffff,stroke-width:1px;
+classDef net fill:#9467bd,stroke:#41235b,color:#ffffff,stroke-width:1px;
+classDef op fill:#8c564b,stroke:#4a2b24,color:#ffffff,stroke-width:1px;
+classDef note fill:#7f7f7f,stroke:#3f3f3f,color:#ffffff,stroke-width:1px,stroke-dasharray: 5 5;
+
+IA["Initial Access\nSSH brute force 🔷"]:::exec --> Exec
+Exec["Execution\nDeploy stager; write redtail.$ARCH 🔷"]:::exec --> ArchCheck
+
+ArchCheck{"Architecture detected?\n(x86_64 / i686 / arm / aarch64) 🔶"}:::decision -->|x86_64 / amd64| DropPath
+ArchCheck -->|arm / aarch64 / arm7| DropPath
+
+DropPath(("Choose drop path\n/tmp, /dev/shm, user-writable dirs ⚙️")):::persist --> NoExecCheck
+
+NoExecCheck{"Is target mount mounted with noexec? 🔶"}:::decision -->|yes| Fallback
+NoExecCheck -->|no| InstallBinary
+
+Fallback(("Fallback location\n/var/tmp or relocate to user dir ⚙️")):::op --> InstallBinary
+
+InstallBinary["Install & execute binary\n(selects variant; start xmrig) 🔷"]:::exec --> Persistence
+
+Persistence["Persistence\ncron/systemd entries; file drops 🗄️"]:::persist --> Cleaner
+
+Cleaner["Cleaner / Competitor-killer\nchattr -ia; scrub crontabs; pkill/killall ⚙️"]:::op --> Network
+
+Network["Network / C2\nstratum+ssl://randomx.xmrig.com:443 ☁️"]:::net --> Impact
+
+Impact["Impact\nResource hijack — XMR mining (RandomX) 🚨"]:::impact
+
+%% contextual note
+note1(("Decision: arch -> selects redtail.<arch> binary\nSee: strings/783adb7a*.full.txt for stager logic")):::note
+ArchCheck --- note1
+
+%% styling hints (repeat for convenience)
+%% class IA,Exec,InstallBinary,Persistence,Cleaner,Network,Impact DropPath NoExecCheck Fallback note1

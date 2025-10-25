@@ -1,0 +1,45 @@
+# Redtail / XMRig Campaign — MITRE ATT&CK Mapping
+**Repository:** /home/kali/malware/redtail
+
+> NOTE: This mapping was generated using only the evidence files present in `reports/`:
+> - `strings_miner_ioc_candidates.txt`
+> - `persistence_behavior_candidates.txt`
+> - `competitor_killer_candidates.txt`
+> - `execution_drop_evasion_candidates.txt`
+> - `cpu_feature_candidates.txt`
+> - `btc_wallet_candidates.txt`
+>
+> Files that were empty at creation time: `r2_functions_of_interest.txt`, `xmr_wallet_candidates.txt`.
+> Confidence levels reflect available evidence.
+
+| Tactic | Technique ID | Technique Name | Evidence / Artifacts (repo path) | Confidence | Notes |
+|---|---:|---|---|---:|---|
+| Initial Access | T1110.001 | Brute Force: Password Guessing | *No Cowrie logs present locally for this run* (marking as **Medium** until logs provided) | Medium | Cowrie logs not present; mapping based on typical miner campaigns. If you provide `cowrie` logs, we can mark High. |
+| Execution | T1059.004 | Command and Scripting Interpreter: Unix Shell | `reports/strings_miner_ioc_candidates.txt`, `reports/execution_drop_evasion_candidates.txt` | High | Filtered strings show `wget|curl|/tmp|/dev/shm` usage and likely shell staging patterns. |
+| Execution | T1106 | Native API / Binary Execution | `unpacked/` directory, `strings/*unpx.flt.txt` (refer `reports/strings_miner_ioc_candidates.txt`) | High | Multi-arch ELF binaries present in `unpacked/`. |
+| Persistence | T1053.003 | Scheduled Task/Job: Cron | `reports/persistence_behavior_candidates.txt` | Medium | `cron` / `crontab` terms appear in strings — indicates cron usage or manipulation. |
+| Defense Evasion | T1027.002 | Obfuscated/Compressed Files and Information: Packing | `sha_unpacked.txt`, presence of `unpacked/` and `strings/*unpx*` | High | Samples were UPX-packed prior to unpacking (you have unpacked copies). |
+| Defense Evasion | T1036 | Masquerading | `reports/execution_drop_evasion_candidates.txt`, `reports/strings_miner_ioc_candidates.txt` | Medium | Strings reference `ssh`, `wget`, and common temp paths; binaries may be named to blend in. |
+| Discovery | T1082 | System Information Discovery | `reports/cpu_feature_candidates.txt`, `strings/d6e0_strings.txt` | High | CPU feature checks (AES/AVX/SSE/RandomX) and uname/mount references present. |
+| Discovery | T1518.001 | Software Discovery: Security Software Discovery | `reports/competitor_killer_candidates.txt`, `reports/persistence_behavior_candidates.txt` | Medium | Strings include `killall|pkill` and process/enumeration indicators—suggests attempted removal of competing miners. |
+| Command and Control | T1071.001 | Application Layer Protocol: Web Protocols | `reports/strings_miner_ioc_candidates.txt` | High | Stratum/pool/donate/XMRig hostnames and protocol references found in filtered strings. |
+| Command and Control | T1573 | Encrypted Channel | `reports/strings_miner_ioc_candidates.txt` | Medium | Evidence of connections to pools that often use TLS/SSL (inferred from `donate.ssl.` strings in some XMRig configs). |
+| Impact | T1496 | Resource Hijacking | `reports/strings_miner_ioc_candidates.txt`, `unpacked/` | High | XMRig/RandomX strings and miner executables indicate cryptomining (CPU resource theft). |
+
+## Evidence summary
+- `reports/strings_miner_ioc_candidates.txt` — contains pool domains and miner protocol strings (Stratum, RandomX, xmrig).
+- `reports/execution_drop_evasion_candidates.txt` — contains `/tmp`, `/dev/shm`, `chmod`, `mount`, `noexec`, `wget`, `curl` hits: supports staging and noexec evasion.
+- `reports/persistence_behavior_candidates.txt` — `cron`/`crontab` hits present; suggests persistence through scheduled tasks.
+- `reports/competitor_killer_candidates.txt` — shows `killall`/`pkill` style strings indicating competitor-killer behavior.
+- `reports/cpu_feature_candidates.txt` — AES/AVX/RandomX/threads or worker hints found.
+- `reports/btc_wallet_candidates.txt` — contains some wallet-like strings (please review).
+
+## Confidence rules used
+- **High**: direct artifact in repo (script lines, unpacked binaries, explicit pool domains).
+- **Medium**: strong string matches or inferred behavior from multiple sources.
+- **Low**: only a heuristic or absent supporting artifact.
+
+## Next steps / To-do
+1. If you want **Initial Access** upgraded to High, provide Cowrie log location (or confirm `/home/kali/cowrie/...`).
+2. If you want `r2` symbols parsed for stronger evidence of network/crypto functions, I can safely extract symbols using `strings`/`grep` from `unpacked/*` instead of parsing the JSON.
+

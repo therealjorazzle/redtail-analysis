@@ -1,0 +1,98 @@
+[0;31mno active pools, stop mining
+[0;31mthread 
+[0;33m (failed to start threads)
+[0m threads %s%zu/%zu (%zu)
+[1;31mfailed to allocate RandomX dataset using 1GB pages
+[1;31mfailed to allocate RandomX memory
+[1;31mfast RandomX mode disabled by config
+[1;31mnot enough memory for RandomX dataset
+[1;33mcache QoS can only be enabled when all mining threads have affinity set
+[1;33mfailed to allocate RandomX datasets, switching to slow mode
+[1;33mfailed to allocate RandomX dataset, switching to slow mode
+[1;37mdev donate finished
+[1;37mdev donate started
+[1;37mPOOL #%-7zu
+[1;37m randomx 
+[1;37m thread%s)
+[1;37m threads)
+api.xmrig.com
+brainpoolP160r1
+brainpoolP160t1
+brainpoolP192r1
+brainpoolP192t1
+brainpoolP224r1
+brainpoolP224t1
+brainpoolP256r1
+brainpoolP256t1
+brainpoolP320r1
+brainpoolP320t1
+brainpoolP384r1
+brainpoolP384t1
+brainpoolP512r1
+brainpoolP512t1
+cpubind.get_thisthread_cpubind
+cpubind.get_thisthread_last_cpu_location
+cpubind.get_thread_cpubind
+cpubind.set_thisthread_cpubind
+cpubind.set_thread_cpubind
+DONATE
+donate-level
+donate-over-proxy
+donate.ssl.xmrig.com
+donate.v2.xmrig.com
+.eh_pool
+glibcxx.eh_pool
+hwloc_linux_get_thread_cpubind
+hwloc_linux_set_thread_cpubind
+libuv-worker
+max-threads-hint
+membind.get_thisthread_membind
+membind.set_thisthread_membind
+memory-pool
+no valid configuration found, try https://xmrig.com/wizard
+pool
+pool address
+pools
+pool-side hashes
+poolu
+randomx
+RandomX
+randomx/0
+randomx/arq
+randomx/graft
+RandomX-Graft
+randomx/sfx
+randomx/test
+randomx/wow
+randomx/yada
+RandomXYadaCoin
+%s: getrandom indicates that the entropy pool has not been initialized. Rather than continue with poor entropy, this process will block until entropy is available.
+stratum+ssl://
+stratum+ssl://randomx.xmrig.com:443
+stratum+ssl://%s
+stratum+tcp://
+/sys/devices/system/cpu/cpu0/topology/thread_siblings
+/sys/devices/system/cpu/cpu%d/topology/thread_siblings
+/sys/devices/system/cpu/cpu%u/topology/thread_siblings
+/sys/devices/system/node/node0/hugepages/hugepages-2048kB/nr_hugepages
+/sys/devices/system/node/node%d/hugepages
+/sys/devices/system/node/node{}/hugepages/hugepages-{}kB/{}_hugepages
+threads
+uv__queue_empty(&loop->wq) && "thread pool work queue not empty!"
+UV_THREADPOOL_SIZE
+/var/build/xmrig/scripts/build/abseil-cpp/absl/container/internal/raw_hash_set.cc
+/var/build/xmrig/scripts/build/hwloc-2.12.1/include/hwloc/helper.h
+/var/build/xmrig/scripts/build/hwloc-2.12.1/include/hwloc/plugins.h
+whirlpool
+worker-id
+xmrig
+XMRig
+XMRIG_CWD
+XMRIG_DATA_DIR
+XMRIG_EXE
+XMRIG_EXE_DIR
+XMRIG_HOME_DIR
+XMRIG_HOSTNAME
+XMRIG_KIND
+XMRIG_TEMP_DIR
+XMRIG_VERSION

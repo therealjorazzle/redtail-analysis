@@ -1,0 +1,50 @@
+[0;31mno active pools, stop mining
+[1;37mPOOL #%-7zu
+api.xmrig.com
+brainpoolP160r1
+brainpoolP160t1
+brainpoolP192r1
+brainpoolP192t1
+brainpoolP224r1
+brainpoolP224t1
+brainpoolP256r1
+brainpoolP256t1
+brainpoolP320r1
+brainpoolP320t1
+brainpoolP384r1
+brainpoolP384t1
+brainpoolP512r1
+brainpoolP512t1
+donate.ssl.xmrig.com
+donate.v2.xmrig.com
+.eh_pool
+glibcxx.eh_pool
+memory-pool
+no valid configuration found, try https://xmrig.com/wizard
+pool
+pool address
+pools
+pool-side hashes
+poolu
+%s: getrandom indicates that the entropy pool has not been initialized. Rather than continue with poor entropy, this process will block until entropy is available.
+stratum+ssl://
+stratum+ssl://randomx.xmrig.com:443
+stratum+ssl://%s
+stratum+tcp://
+uv__queue_empty(&loop->wq) && "thread pool work queue not empty!"
+UV_THREADPOOL_SIZE
+/var/build/xmrig/scripts/build/abseil-cpp/absl/container/internal/raw_hash_set.cc
+/var/build/xmrig/scripts/build/hwloc-2.12.1/include/hwloc/helper.h
+/var/build/xmrig/scripts/build/hwloc-2.12.1/include/hwloc/plugins.h
+whirlpool
+xmrig
+XMRig
+XMRIG_CWD
+XMRIG_DATA_DIR
+XMRIG_EXE
+XMRIG_EXE_DIR
+XMRIG_HOME_DIR
+XMRIG_HOSTNAME
+XMRIG_KIND
+XMRIG_TEMP_DIR
+XMRIG_VERSION
